@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>use of the class attribute
+        in javascript</h2>
+        <p>click the button to hide all
+        elements with class name 
+        "city":</p>
+
+        <button
+        onclick="myfunction()">hide
+        element</button>
+
+        <h2 class="city">london</h2>
+        <p>london is the capital of 
+        england.</p>
+
+        <h2 class="city">paris</h2>
+        <p>paris is the capital of 
+        france.</p>
+
+        <h2 class="city">tokyo</h2>
+        <p>tokyo is the capital of
+        japan.</p>
+
+        <script>
+            function myfunction() {
+            var x = 
+            document.getElementsByClassName
+            ("city");
+            for (var i = 0; i < x.length;
+            i++) {
+            x[i].style.display = 
+            "none";
+            }
+            }
+        </script>
+
+    </body>
+</html>

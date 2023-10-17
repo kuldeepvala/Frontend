@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .city {
+                background-color: cadetblue;
+                color: black;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+       <div class="city">
+          <h2>london</h2>
+          <p>london is capital of 
+          england.</p>
+        </div>
+
+       <div class="city">
+          <h2>tokyo</h2>
+          <p> tokyo is the capital of
+          japan.</p>
+        </div>
+
+       <div class="city">
+           <h2>paris</h2>
+           <p>paris is the capital of
+           france.</p>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* style the element with the 
+            id "myheader" */
+            #myheader {
+                background-color: aqua;
+                color: black;
+                padding: 40px;
+                text-align: center;
+            }
+
+            /* style all element with the
+            class name "city" */
+            .city {
+                background-color: coral;
+                color: black;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h2>difference between class 
+        and id</h2>
+        <p>a class name can be used by
+        mutiple html element, whils
+        an id name element within the 
+        page:</p>
+
+        <!--an element with a unique
+        id-->
+        <h1 id="myheader">my
+        cities</h1>
+
+        <!--multiple element with 
+        same class-->
+        <h2 class="city">london</h2>
+        <p>london is the capital of
+        england.</P>
+
+        <h2 class="city">tokyo</h2>
+        <p>tokyo is the capital of
+        japan.</p>
+
+        <h2 class="city">paris</h2>
+        <p>paris is the capital of
+        france.</p>
+
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <p>this text is normal.</p>
+
+        <p><i>this text is italic.</i>
+        </p>
+
+    </body>
+    </html>
+    <!DOCTYPE html>
+    <html>
+        <body>
+    
+            <p>browsers usually insert
+             quotation mark around the q
+             element</p>
+    
+             <p>WWF's goal is to: <q>Build a
+            future where people live in 
+            harmony with nature.</q></P>
+    
+        </body>
+    </html> 
+    <!DOCTYPE html>
+    <html>
+        <body>
+    
+            <p>the html cit elemant defines
+            the title of a work.</p>
+            <p>browsers usually display cite 
+            elemant in italic.</p>
+            
+            <img src="c:\image\kp.jfif"
+            width="220" height="277" alt="the scream">
+            <p><cite>the scream</cite> by
+            shree_kreshna_dewana_. painted in 2023.
+            </p>
+    
+        </body>
+    </html>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>page title</title>
+            <style>
+                body {background-color: aqua;}
+                h1 {color: crimson;}
+                p {color: black;}
+            </style>
+        </head>
+        <body>
+    
+            <h1>this is a heading</h1>
+            <p>this is a paragraph</p>
+    
+            <p>the content of the body 
+            element is displayed in the 
+            browser window.</p>
+            <p>the content of the body 
+            element is displayed in the 
+            browser tab, in favorites and
+            in search-engine results.</p>
+    
+        </body>
+    </html>
+    
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>page title</title>
+            <script>
+                function myfunction() {
+                    document.getelementbyid("demo"
+                    ).innerhtml = "hello javascript!";
+                }
+            </script>
+        </head>
+        <body>
+    
+            <h1>my web page</h1>
+            <p id="demo">a paragraph</p>
+            <button type="button"
+            onclick="myfunction()">try
+            it</button>
+        </body>
+    </html>
+    
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <base
+            href="https://www.w3schools.com/
+            " target="_blank">
+        </head>
+        <body>
+            <h1>the base element</h1>
+    
+            <p><img
+            src="c:\Users\kpval\Downloads\Basic_human_drawing.png"
+            width="24" height="39"
+            alt="sticman"> - notice that we 
+            have only specified a relative 
+            address for the image. since we 
+            have specified a base url in the 
+            head section, the browser will
+            look for the image at
+            "https://www.w3schools.com/c:\Users\kpval\Downloads\Basic_human_drawing.png".</p>
+    
+            <p><a 
+                href="tags/tag_base.asp">html 
+                base tagea</a> - notice that the 
+                link opens in a new window, even 
+                if it has no target="_blank"
+                attribute. This is because the 
+                target attribute of the base 
+                element is set to "_blank".</p>
+    
+        </body>
+    </html>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>css template</title>
+            <meta charset="utf-8">
+            <meta name="viewport"
+            content="width=device=width,initial-scale=1">
+            <style>
+                * {
+                    box-sizing: border-box;
+                }
+    
+                body {
+                    font-size: arial, helvetica,
+                    sans-serif;
+                }
+                /* style the header */
+                header {
+                    background-color: rgb(202, 202, 199);
+                    padding: 30px;
+                    text-align: center;
+                    font-size: 35px;
+                    color: rgb(114, 114, 114);
+                }
+    
+                /*create two columns/boxes that
+                floats next to each other */
+                nav {
+                    float: left;
+                    width: 30%;
+                    height: 300px; /* only for 
+                    demonstration, should be removed
+                    */
+                    background: #ccc;
+                    padding: 20px;
+                }
+    
+                /* style the list inside the 
+                menu */
+                nav ul {
+                    list-style-type: none;
+                    padding: 0;                
+                }
+    
+                article {
+                    float: left;
+                    padding: 20px;
+                    width: 70%;
+                    background-color: #f1f1f1;
+                    height: 300px; /* only for 
+                    demonstration, should be removed
+                    */
+                }
+    
+                /* clear floats after the 
+                columns */
+                sectiopn::after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+    
+                /* style the footer */
+                footer {
+                    background-color: #777;
+                    padding: 10px;
+                    text-align: center;
+                    color: white;
+                }
+    
+                /* responsive layout - makes the 
+                two colomns/boxes stack on top
+                of each other instead of next to 
+                each other, on small screens */
+                @media (max-width:600px) {
+                    nav, article {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            </style>
+        </head>
+        <body> 
+    
+            <h2>css layout</h2>
+            <p>in this example, we have 
+            created a header, two
+            columns/boxes and a footer.on 
+            smaller screens, the columns 
+            will stack on top of each other.
+            </p>
+            <p>resize the browser window to
+            see the responsive effect (you
+            will learn more about this in 
+            our next chapter - html 
+            responsive.)</p>
+    
+            <header>
+                <h2>cities</h2>
+            </header>
+            
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#">london</a>
+                        </li>
+                        <li><a href="#">paris</a>
+                        </li>
+                        <li><a href="#">tokyo</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <article>
+                    <h1>london</h1>
+                    <p>london capital
+                    city of england. it is the most 
+                    populous city in the united
+                    kingdom, with a metropolitan
+                    area of over 13 milion
+                    inhabitants.</p>
+                            <p>standing on the river 
+                    thames, london has been a major 
+                    settlement for two millennia,
+                    its history going back to its 
+                    founding by the romans, who 
+                    named it londinium.</p>
+                </article>
+            </section>
+    
+            <footer>
+                <p>footer</p>
+            </footer>
+    
+        </body>
+    </html>     
+    <!DOCTYPE html>
+    <html>
+        <body>
+    
+            <h2>using the id attrebute in 
+            javascript</h2>
+            <p>javascript can access an 
+            element with a specified id by
+            using the getelementbyid()
+            method:</p>
+    
+            <h1 id="myheader">hello world!
+            </h1>
+            <button
+            onclick="displayresult()">chang 
+            e text</button>
+    
+            <script>
+              function displayresult() {
+    
+                document.getelementbyid("myheader").innerhtml = "have a niceday!";
+                }
+            </script>
+    
+        </body>
+    </html>
+    <!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>html iframes</h2>
+        <p>you can use the height and
+        width attributes to specify the 
+        size of the iframe:</p>
+
+        <iframe src="c:\image\kp.jfif"
+        height="900" width="900"
+        title="iframe example"></iframe>
+
+    </body>
+</html>
+</DOCTYPE html>
+<html>
+    <body>
+
+        <h2>HTML Image</h2>
+        <img src="c:\image\kp.jfif" alt="trulli"
+        width="500" height="333">
+
+    </body>
+</html>
+</DOCTYPE html>
+<html>
+    <body>
+
+        <h2>image maps</h2>
+        <p>click on the moon to go a new page and read more about the topic:</p>
+        <img src="c:\image\img3.jpg" alt="natureview"
+        usemap="#naturemap"  width="450" height="400">
+
+        <map name="naturemap">
+        <area shape="rect" coords="90,95,480,570"
+        alt="moon" href="moon.htm">
+        </map>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
