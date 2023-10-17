@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #eea2a2;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #090909;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#151414f2;">
+
+<div style="background-color:hsla(60, 3%, 6%, 0.914);padding:15px;text-align:center;">
+  <h1>Hello World</h1>
+</div>
+  
+<div style="overflow:auto">
+    <div class="menu">
+      <a href="#">page 1</a>
+      <a href="#">page 2</a>
+      <a href="#">page 3</a>
+      <a href="#">page 4</a>
+    </div>
+
+  <div class="main">
+    <h2>Lorum Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+</div>
+
+<div style="background-color:#68686847;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Cinque Terre</h1>
+  <h3>Resize the browser window</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">The Walk</div>
+    <div class="menuitem">Transport</div>
+    <div class="menuitem">History</div>
+    <div class="menuitem">Gallery</div>
+  </div>
+
+  <div class="main">
+    <h2>The Walk</h2>
+    <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+    <img src="C:\Users\kpval\Downloads\flag-india.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>What?</h2>
+    <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+    <h2>Where?</h2>
+    <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+    <h2>Price?</h2>
+    <p>The Walk is free!</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;">
+This web page is a part of a demonstration of fluid web 
+design made by w3school.comm. 
+resize the browser window to see 
+the content respond to the 
+resizing.</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: #68b448;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 30%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div class="left">
+  <p>Left Menu</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page title</title>
+        <style>
+            body {background-color: rgb(8, 101, 101);}
+            h1 {color: rgb(124, 146, 157);}
+            p {color: black;}
+        </style>
+    </head>
+    <body>
+
+        <h1>this is a heading</h1>
+        <p>this is a paragraph</p>
+
+        <p>the content of the body 
+        element is displayed in the 
+        browser window.</p>
+        <p>the content of the body 
+        element is displayed in the 
+        browser tab, in favorites and
+        in search-engine results.</p>
+
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page title</title>
+        <script>
+            function myfunction() {
+                document.getelementbyid("demo"
+                ).innerhtml = "hellojavascript!";
+            }
+        </script>
+    </head>
+    <body>
+
+        <h1>my web page</h1>
+        <p id="demo">a paragraph</p>
+        <button type="button"
+        onclick="myfunction()">try
+        it</button>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <base
+        href="https://www.w3schools.com/
+        " target="_blank">
+    </head>
+    <body>
+        <h1>the base element</h1>
+
+        <p><img
+        src="c:\Users\kpval\Downloads\Basic_human_drawing.png"
+        width="24" height="39"
+        alt="sticman"> - notice that we 
+        have only specified a relative 
+        address for the image. since we 
+        have specified a base url in the 
+        head section, the browser will
+        look for the image at
+        "https://www.w3schools.com/c:\Users\kpval\Downloads\Basic_human_drawing.png".</p>
+
+        <p><a 
+            href="tags/tag_base.asp">html 
+            base tagea</a> - notice that the 
+            link opens in a new window, even 
+            if it has no target="_blank"
+            attribute. This is because the 
+            target attribute of the base 
+            element is set to "_blank".</p>
+
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>css template</title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device=width,initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-size: arial, helvetica,
+                sans-serif;
+            }
+            /* style the header */
+            header {
+                background-color: rgb(202, 202, 199);
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: rgb(114, 114, 114);
+            }
+
+            /*create two columns/boxes that
+            floats next to each other */
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px; /* only for 
+                demonstration, should be removed
+                */
+                background: #ccc;
+                padding: 20px;
+            }
+
+            /* style the list inside the 
+            menu */
+            nav ul {
+                list-style-type: none;
+                padding: 0;                
+            }
+
+            article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 300px; /* only for 
+                demonstration, should be removed
+                */
+            }
+
+            /* clear floats after the 
+            columns */
+            sectiopn::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            /* style the footer */
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+
+            /* responsive layout - makes the 
+            two colomns/boxes stack on top
+            of each other instead of next to 
+            each other, on small screens */
+            @media (max-width:600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    <body> 
+
+        <h2>css layout</h2>
+        <p>in this example, we have 
+        created a header, two
+        columns/boxes and a footer.on 
+        smaller screens, the columns 
+        will stack on top of each other.
+        </p>
+        <p>resize the browser window to
+        see the responsive effect (you
+        will learn more about this in 
+        our next chapter - html 
+        responsive.)</p>
+
+        <header>
+            <h2>cities</h2>
+        </header>
+        
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">london</a>
+                    </li>
+                    <li><a href="#">paris</a>
+                    </li>
+                    <li><a href="#">tokyo</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <article>
+                <h1>london</h1>
+                <p>london capital
+                city of england. it is the most 
+                populous city in the united
+                kingdom, with a metropolitan
+                area of over 13 milion
+                inhabitants.</p>
+                        <p>standing on the river 
+                thames, london has been a major 
+                settlement for two millennia,
+                its history going back to its 
+                founding by the romans, who 
+                named it londinium.</p>
+            </article>
+        </section>
+
+        <footer>
+            <p>footer</p>
+        </footer>
+
+    </body>
+</html>
