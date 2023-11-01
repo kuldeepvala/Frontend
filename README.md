@@ -2,5 +2,5 @@
 
 *task : html-css
 
-topic :border,marjins,padding, hight/width,box model, outline. 
+topic : css text ,text color alignment, decoration transformation, spacing, shadow, css font, web safe, fallbacks, style, size,
 
