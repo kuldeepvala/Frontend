@@ -2,5 +2,5 @@
 
 *task : html-css
 
-topic : css text ,text color alignment, decoration transformation, spacing, shadow, css font, web safe, fallbacks, style, size,
+topic :font, icon, link,list,task(backgroundcolor change)
 
