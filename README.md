@@ -2,5 +2,6 @@
 
 *task : html-css
 
-topic :font, icon, link,list,task(backgroundcolor change)
+topic :css list, table, display, max-width, position, z-index,overflow,float,inline-block,align,combinationators,pseudo-class, 
+pseudo-element,
 
