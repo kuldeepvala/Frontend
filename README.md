@@ -2,6 +2,4 @@
 
 *task : html-css
 
-topic :css list, table, display, max-width, position, z-index,overflow,float,inline-block,align,combinationators,pseudo-class, 
-pseudo-element,
-
+topic :css opacity, navigation bar, dropdowns, image gallery, image sprites, attr selector, forms, counters.
