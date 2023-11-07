@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :css opacity, navigation bar, dropdowns, image gallery, image sprites, attr selector, forms, counters.
+topic :css website layout, units, specificity, !important, math functions,rounded corners, border images.
