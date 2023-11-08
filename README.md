@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :css website layout, units, specificity, !important, math functions,rounded corners, border images.
+topic :css backgrounds, color, color keywords, gradients, shadows, text effect, web font.r
