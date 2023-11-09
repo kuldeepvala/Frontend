@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :css backgrounds, color, color keywords, gradients, shadows, text effect, web font.r
+topic :css web fonts, 2d transforms, 3d transforms, transitions, animation, tooltips,
