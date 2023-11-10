@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :css web fonts, 2d transforms, 3d transforms, transitions, animation, tooltips,
+topic :image reflection, object-fit, object-position, masking, buttons, paganation, multiple columns, user interface, variable, box szing, media queries, flexbox, 
