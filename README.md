@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :image reflection, object-fit, object-position, masking, buttons, paganation, multiple columns, user interface, variable, box szing, media queries, flexbox, 
+topic :RWD intro, viewport, grid view, media queries, images, videos,frameworks,templates,grid intro,grid container, grid item,sass tutorial.
