@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>my first java script</h1>
+        <p>here, a javascript changes
+        the velue of the src (source)
+        attribute of an image.</p>
+
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw == 0) {
+                    pic = "light2.jpg";
+                } 
+                else {
+                    pic = "light1.jpg";
+                }
+             document.getElementById('myImage').src = pic;
+            }
+        </script>
+
+        <img id="myimage" src="light1.jpg" width="100" height="180">
+
+        <p>
+            <button type="button"
+            onclick="light(1)">light 
+            Off</button>
+            <button type="button"
+            onclick="light(0)">light
+            on</button>
+        </p>
+
+    </body>
+</html>
+            
+        
+
+

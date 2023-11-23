@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: antiquewhite;
+            }
+            ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+ol.ex1 {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul.ex2 {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol.ex1 li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul.ex2 li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+}
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  background: lightgray;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+#overflowTest {
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  height: 100px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+.div1 {
+  float: left;
+  padding: 10px;
+  border: 3px solid #73AD21;
+}
+
+.div2 {
+  padding: 10px;
+  border: 3px solid red;
+}
+
+.div3 {
+  float: left;
+  padding: 10px;  
+  border: 3px solid #73AD21;
+}
+
+.div4 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+}
+div.ex3{
+  border: 3px solid #4CAF50;
+  padding: 75px;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+    opacity: o.5;
+}
+img:hover{
+    opacity: 1.0;
+}
+        </style>
+    </head>
+    <body>
+       <center> <h2>The list-style-type Property</h2></center>
+       <br>
+       <hr>
+       
+
+<p>Example of unordered lists:</p>
+<ul class="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<ul class="b">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<p>Example of ordered lists:</p>
+<ol class="c">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ol class="d">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+<hr>
+<hr>
+<center><h2>The list-style-image Property</h2></center>
+<br>
+<hr>
+<br>
+<p>The list-style-image property specifies an image 
+    mas the list item marker:</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+<hr>
+<hr>
+<center><h1>Styling Lists With Colors</h1></center>
+<br>
+<hr>
+<br>
+<ol class="ex1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ul class="ex2">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+<hr><hr>
+<center><h2>Full-width Table</h2></center>
+<br>
+<hr>
+<br>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+<hr><hr>
+  <center><h1>Overlapping elements</h1></center>
+  <br>
+  <hr>
+  <br>
+
+  <p>If two positioned elements overlap 
+    each other without a z-index specified,
+    the element defined last in the HTML 
+    code will be shown on top:</p>
+  
+  <div class="container">
+    <div class="black-box">Black box</div>
+    <div class="gray-box">Gray box</div>
+    <div class="green-box">Green box</div>
+  </div>
+  <hr>
+  <center><h2>CSS Overflow</h2>
+
+  <p>The overflow property controls what 
+    happens to content that is too big to 
+    fit into an area.</p>
+  
+  <div id="overflowTest">This text is really 
+    long and the height of its container is 
+    only 100 pixels. Therefore, a scrollbar 
+    is added to help the reader to scroll the 
+    content. Lorem ipsum dolor sit amet, 
+    consectetuer adipiscing elit, sed diam 
+    nonummy nibh euismod tincidunt ut laoreet 
+    dolore magna aliquam erat volutpat. Ut wisi 
+    enim ad minim veniam, quis nostrud exerci 
+    tation ullamcorper suscipit lobortis nisl ut 
+    aliquip ex ea commodo consequat. Duis autem 
+    vel eum iriure dolor in hendrerit in vulputate 
+    velit esse molestie consequat, vel illum dolore 
+    eu feugiat nulla facilisis at vero eros et 
+    accumsan et iusto odio dignissim qui blandit 
+    praesent luptatum zzril delenit augue duis dolore 
+    te feugait nulla facilisi. Nam liber tempor cum 
+    soluta nobis eleifend option congue nihil imperdiet 
+    doming id quod mazim placerat facer possim assum. 
+    Typi non habent claritatem insitam; est usus legentis 
+    in iis qui facit eorum claritatem.</div></center>
+    <hr>
+    <center><h2>Without clear</h2></center>
+    <div class="div1">div1</div>
+    <div class="div2">div2 - Notice that div2 is 
+        after div1 in the HTML code. However, since 
+        div1 floats to the left, the text in div2 
+        flows around div1.</div>
+    <br><br>
+    
+    <center><h2>With clear</h2></center>
+    <div class="div3">div3</div>
+    <div class="div4">div4 - Here, clear: left; 
+    moves div4 down below the floating div3. 
+    The value "left" clears elements floated 
+    to the left. You can also clear "right" 
+    and "both".</div>
+    <hr><hr>
+    <div class="ex3">
+        <img class="img1" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="170" height="170">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+      </div>
+      
+      <center><h2 style="clear:right">With Clearfix</h2>
+      <p>We can fix this by adding a clearfix class with overflow: auto; to the containing element:</p>
+      
+      <div class="clearfix">
+        <img class="img2" src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple" width="170" height="170">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+      </div></center>
+      <hr>
+      <center><h1>The display Property</h1></center>
+      <br>
+      
+
+<center><h2>display: inline</h2></center>
+<hr>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Vestibulum consequat scelerisque elit sit amet consequat. 
+    Aliquam erat volutpat. <span class="a">Aliquam</span> 
+    <span class="a">venenatis</span> gravida nisl sit amet facilisis. 
+    Nullam cursus fermentum velit sed laoreet. </div>
+
+<center><h2>display: inline-block</h2></center>
+<hr>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Vestibulum consequat scelerisque elit sit amet consequat. 
+    Aliquam erat volutpat. <span class="b">Aliquam</span> 
+    <span class="b">venenatis</span> gravida nisl sit amet facilisis. 
+    Nullam cursus fermentum velit sed laoreet. </div>
+
+<center><h2>display: block</h2></center>
+<hr>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Vestibulum consequat scelerisque elit sit amet consequat. 
+    Aliquam erat volutpat. <span class="c">Aliquam</span> 
+    <span class="c">venenatis</span> gravida nisl sit amet 
+    facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+     <hr> 
+     <center><h1>Horizontal Navigation Links</h1></center>
+     <br>
+     <p>By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).</p>
+     <p>Note: If you resize the browser window, the links will automatically break when it becomes too crowded.</p>
+     
+     <ul class="nav">
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About Us</a></li>
+       <li><a href="#clients">Our Clients</a></li>  
+       <li><a href="#contact">Contact Us</a></li>
+     </ul>
+     <hr>
+     <center><h2>Center an Image</h2></center>
+    <p>To center an image, set left and right 
+     margin to auto, and make it into a block element.</p>
+
+     <img src="https://www.w3schools.com/css/paris.jpg" 
+     alt="Paris" style="width:40%">
+     <hr>
+     <center><h1>Image Transparency</h1></center>
+     <p>The opacity property is often used together with 
+        the :hover selector to change the opacity on mouse-over:</p>
+     <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="170" height="100">
+     <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="170" height="100">
+     <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Italy" width="170" height="100">
+
+
+    </body>
+</html>

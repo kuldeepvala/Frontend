@@ -1,0 +1,1460 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <style>
+    details> summry {
+        padding: 4px;
+        width: 200px;
+        background-color: #afadad;
+        border: none;
+        box-shadow: 1px 1px 2px #bbbbbb;
+        cursor: pointer;
+    }
+
+    details> p {
+        background-color: #8bc4d4;
+        padding: 4px;
+        margin: 0%;
+        box-shadow: 1px 1px 2px #76e5f3;
+    }
+    </style>
+    </head>
+    <body>
+    
+
+        <h1 style="color: #cfae34;">the summary element +css</h1>
+        
+
+        <details>
+            <summary style="color: #1c10f2;">Epcot center</summary>
+            <p>epcot is a theme park at
+        walt disney world resort
+        featuring world attrection ,
+        international pavilions , award- 
+        winnig fireworks and sesonal
+        special events.
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAe7uhrKU2sfjzFYCPOphWxQc-rfr4Dodd4A&usqp=CAU" style="width: 100%">
+        <a href="https://www.w3schools.com/html/html5_video.asp" target="_blank"></a>  </p>
+
+
+        </details>
+
+    </body>
+</HTML>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        
+            <style>
+            body{
+                margin: 0;
+                padding:0%;
+                background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMuWEzknS-d_sqX1Ly9NY7kVTfK8bqTJ4nuw&usqp=CAU);
+            }
+            ul{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                margin: 0;
+                padding:0;
+                display: flex;
+            }
+            ul li{
+                list-style: none;
+                font-family: arial;
+                font-size: 3em;
+                letter-spacing: 15px;
+                text-shadow: none;
+                animation: animate 1s infinite linear;
+            }
+            @keyframes animate{
+                0%{
+                   color: #484848;
+                   text-shadow: none;
+                }
+                18%{
+                    color: #484848;
+                    text-shadow: none;
+                }
+                20%{
+                    color: #fff900;
+                    text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+                }
+                30%{
+                    color: #484848;
+                    text-shadow: none;
+                }
+                35%{
+                    color: #fff900;
+                    text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+                }
+                70%{
+                    color: #484848;
+                    text-shadow: none;
+                }
+                85%{
+                    color: #484848;
+                    text-shadow: none;
+                }
+                100%{
+                    color: #484848;
+                    text-shadow: none;
+                }
+            }
+            ul li:nth-child(1){
+                animation-delay: 2s;
+            }
+            ul li:nth-child(2){
+                animation-delay: 4s;
+            }
+            ul li:nth-child(3){
+                animation-delay: 6s;
+            }
+            ul li:nth-child(4){
+                animation-delay: 8s;
+            }
+            ul li:nth-child(5){
+                animation-delay: 8.2s;
+            }
+            ul li:nth-child(6){
+                animation-delay: 2.2s;
+            }
+            ul li:nth-child(7){
+                animation-delay: 3.4s;
+            }
+            ul li:nth-child(8){
+                animation-delay: 4.6s;
+            }
+            ul li:nth-child(9){
+                animation-delay: 5.8s;
+            }
+            ul li:nth-child(10){
+                animation-delay: 2s;
+            }
+            ul li:nth-child(11){
+                animation-delay: 2.1s;
+            }
+          
+        </style>
+    </head>
+ <body>
+    <ul>
+       <li>K</li>
+       <li>U</li>
+       <li>L</li>
+       <LI>D</LI>
+       <li>E</li>
+       <li>E</li>
+       <li>P</li>
+        <li>V</li>
+        <li>A</li>
+        <LI>L</LI>
+        <LI>A</LI>
+    </ul>
+ </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Cinque Terre</h1>
+  <h3>Resize the browser window</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">The Walk</div>
+    <div class="menuitem">Transport</div>
+    <div class="menuitem">History</div>
+    <div class="menuitem">Gallery</div>
+  </div>
+
+  <div class="main">
+    <h2>The Walk</h2>
+    <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    .menu {
+      float: left;
+      width: 20%;
+    }
+    .menuitem {
+      padding: 8px;
+      margin-top: 7px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+      overflow: hidden;
+    }
+    .right {
+      background-color: lightblue;
+      float: left;
+      width: 20%;
+      padding: 10px 15px;
+      margin-top: 7px;
+    }
+    
+    @media only screen and (max-width:800px) {
+      /* For tablets: */
+      .main {
+        width: 80%;
+        padding: 0;
+      }
+      .right {
+        width: 100%;
+      }
+    }
+    @media only screen and (max-width:500px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+        width: 100%;
+      }
+    }
+    </style>
+    </head>
+    <body style="font-family:Verdana;">
+    
+    <div style="background-color:#f1f1f1;padding:15px;">
+      <h1>Cinque Terre</h1>
+      <h3>Resize the browser window</h3>
+    </div>
+    
+    <div style="overflow:auto">
+      <div class="menu">
+        <div class="menuitem">The Walk</div>
+        <div class="menuitem">Transport</div>
+        <div class="menuitem">History</div>
+        <div class="menuitem">Gallery</div>
+      </div>
+    
+      <div class="main">
+        <h2>The Walk</h2>
+        <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        .menu {
+          float: left;
+          width: 20%;
+        }
+        .menuitem {
+          padding: 8px;
+          margin-top: 7px;
+          border-bottom: 1px solid #f1f1f1;
+        }
+        .main {
+          float: left;
+          width: 60%;
+          padding: 0 20px;
+          overflow: hidden;
+        }
+        .right {
+          background-color: lightblue;
+          float: left;
+          width: 20%;
+          padding: 10px 15px;
+          margin-top: 7px;
+        }
+        
+        @media only screen and (max-width:800px) {
+          /* For tablets: */
+          .main {
+            width: 80%;
+            padding: 0;
+          }
+          .right {
+            width: 100%;
+          }
+        }
+        @media only screen and (max-width:500px) {
+          /* For mobile phones: */
+          .menu, .main, .right {
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body style="font-family:Verdana;">
+        
+        <div style="background-color:#f1f1f1;padding:15px;">
+          <h1>Cinque Terre</h1>
+          <h3>Resize the browser window</h3>
+        </div>
+        
+        <div style="overflow:auto">
+          <div class="menu">
+            <div class="menuitem">The Walk</div>
+            <div class="menuitem">Transport</div>
+            <div class="menuitem">History</div>
+            <div class="menuitem">Gallery</div>
+          </div>
+        
+          <div class="main">
+            <h2>The Walk</h2>
+            <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeD9lji_5el7kiC37hV9r_s0y-8pgEe6wPrw&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_axSqyyq11x5JqZ_rKbzYcbXLORVp-1nAw&usqp=CAU" style="width: 100%">
+          </div>
+        
+          <div class="right">
+            <h2>What?</h2>
+            <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+            <h2>Where?</h2>
+            <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+            <h2>Price?</h2>
+            <p>The Walk is free!</p>
+          </div>
+        </div>
+        
+        
+        <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+        
+        </body>
+        </html>
+        
+        " style="width:100%">
+      </div>
+    
+      <div class="right">
+        <h2>What?</h2>
+        <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+        <h2>Where?</h2>
+        <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+        <h2>Price?</h2>
+        <p>The Walk is free!</p>
+      </div>
+    </div>
+    
+    
+    <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+    
+    </body>
+    </html>
+    
+    " style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>What?</h2>
+    <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+    <h2>Where?</h2>
+    <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+    <h2>Price?</h2>
+    <p>The Walk is free!</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+
+</body>
+</html>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                height: 100;
+                display: flex;
+                align-items: center;
+                background-color: black;
+                overflow: hidden;
+            }
+            .container {
+                font-size: 10px;
+                width: 40em;
+                height: 40em;
+                position: relative;
+            }
+            .sun {
+                position: absolute;
+                top: 15em;
+                left: 15em;
+                width: 10em;
+                height: 10em;
+                background-color: yellow;
+                border-radius: 50%;
+                box-shadow: 0 0 3em white;
+            }
+            .earth,.moon {
+                position: absolute;
+                border-style: solid;
+                border-color: white;
+                     transparent
+                     transparent
+                     transparent;
+                     border-width: 0.1em 0.1em 0 0;
+                     border-radius: 50%;
+            }
+            .earth {
+                top: 5em;
+                left: 5em;
+                width: 30em;
+                height: 30em;
+                animation: orbit 50.5s;
+                linear infinite;
+            }
+            .moon {
+                top: 0;
+                right: 0;
+                width: 8em;
+                height: 8em;
+                animation: orbit 5.7s 
+                linear infinite;
+            }
+            .earth::before,
+            .moon::before {
+                content: '';
+                position: absolute;
+                border-radius: 50%;
+            }
+            .earth::before {
+                top: 2.8em;
+                right: 2.8em;
+                width: 3em;
+                height: 3em;
+                background-color: aqua;
+            }
+            .moon::before {
+                top: 0.8em;
+                right: 0.2em;
+                width: 1.2em;
+                height: 1.2em;
+                background-color: silver;
+            }
+            @keyframes orbit {
+                to{
+                    transform: rotate(
+                        360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <div class="comtainer">
+        <div class="sun"></div>
+        <div class="earth">
+            <div class="moon"></div>
+        </div>
+    </div>
+    </body>
+</html>
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+            <div class="container">
+              <h2>password generator</h2>
+              <div class="wrapper">
+                <div class="input-box">
+                <input type="text"disabled>
+                <span class="material-symbols-rounded">copy_all</span>
+                </div>
+                <div class="pass-indicator"></div>
+                <div class="pass-length">
+                <div class="details">
+                <label class="titel">password length</label>
+                <span></span>
+                </div>
+                <input type="range" min="1" max="30" value="15" step="1">
+                </div>
+                <div class="pass-settings">
+                <label class="titel">password settings</label>
+                <ul class="options">
+                <li class="options">
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">lowercase (a-z)</label>
+                </li>
+        </head>
+</HTML>
+                
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Count numbers: <output id="result"></output></p>
+<button onclick="startWorker()">Start Worker</button> 
+<button onclick="stopWorker()">Stop Worker</button>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+
+<script>
+var w;
+
+function startWorker() {
+  if(typeof(Worker) !== "undefined") {
+    if(typeof(w) == "undefined") {
+      w = new Worker("demo_workers.js");
+    }
+    w.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+  }
+}
+
+function stopWorker() { 
+  w.terminate();
+  w = undefined;
+}
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <p><a href="#c4">jump to 
+        chepter 4</a></p>
+        <p><a href="#c10">jump to
+        chepter 10</a></p>
+        <p><a href="#c22">jump to
+        chapter 22</a></p>
+
+        <h2>chepter 1</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chapter 2</h2>
+        <p> this chapter expalains ba bla
+        bla</p>
+        
+        <h2>chepter 3</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="c4">chepter 4</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 5</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 6</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 7</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 8</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 9</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="10">chepter 10</h2>
+        <p>this chapter explains ba bla 
+        bla</p> 
+
+        <h2>chepter 11</h2>
+        <p>this chapter explains ba bla 
+        bla</p> 
+        
+        <h2>chepter 12</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 13</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 14</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 15</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 16</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 17</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 18</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 19</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 20</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 21</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="c22">chapter 22</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 23</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 24</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <p><a href="#c4">jump to 
+        chepter 4</a></p>
+        <p><a href="#c10">jump to
+        chepter 10</a></p>
+        <p><a href="#c22">jump to
+        chapter 22</a></p>
+
+        <h2>chepter 1</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chapter 2</h2>
+        <p> this chapter expalains ba bla
+        bla</p>
+        
+        <h2>chepter 3</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="c4">chepter 4</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 5</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 6</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 7</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 8</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 9</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="10">chepter 10</h2>
+        <p>this chapter explains ba bla 
+        bla</p> 
+
+        <h2>chepter 11</h2>
+        <p>this chapter explains ba bla 
+        bla</p> 
+        
+        <h2>chepter 12</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 13</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 14</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 15</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 16</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 17</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 18</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 19</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 20</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 21</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="c22">chapter 22</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 23</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 24</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <p><a href="#c4">jump to 
+        chepter 4</a></p>
+        <p><a href="#c10">jump to
+        chepter 10</a></p>
+        <p><a href="#c22">jump to
+        chapter 22</a></p>
+
+        <h2>chepter 1</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chapter 2</h2>
+        <p> this chapter expalains ba bla
+        bla</p>
+        
+        <h2>chepter 3</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="c4">chepter 4</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 5</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 6</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 7</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 8</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 9</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="10">chepter 10</h2>
+        <p>this chapter explains ba bla 
+        bla</p> 
+
+        <h2>chepter 11</h2>
+        <p>this chapter explains ba bla 
+        bla</p> 
+        
+        <h2>chepter 12</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 13</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 14</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 15</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 16</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 17</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 18</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 19</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 20</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 21</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2 id="c22">chapter 22</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 23</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+        <h2>chepter 24</h2>
+        <p>this chapter explains ba bla 
+        bla</p>
+
+    </body>
+</html>
+
+<!DOCTYPE ><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kuladip vala</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      h2{
+         color: coral;
+      }
+    </style>
+</head>
+<body>
+  <h1 style="color: rgb(17, 137, 127);">welcome to kuladip leptop</h1>
+  <h2>welcome to kuladip leptop</h2>
+  <h3>welcome to kuladip leptop</h3>
+  <h4>welcome to kuladip leptop</h4>
+  <h5>welcome to kuladip leptop</h5>
+  <h6>welcome to kuladip leptop</h6>
+  <hr>
+  <p> <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> <i> Illum dolorem est explicabo quae ipsam. A, fugit nisi totam dignissimos ratione asperiores,</i> <small> quaerat porro vel fuga, odio maiores eum? Vero consectetur sed iste quis nulla temporibus mollitia accusamus</small>,10 <sup>2</sup> 10 <sub>2</sub> esse doloremque quae voluptatem hic perspiciatis nobis consequatur sint neque architecto reprehenderit dignissimos!</p>
+  <hr>
+  <h2>shopping list</h2>
+  <ul>
+  <li>milk</li>
+  <li>sonpapdi</li>
+  <li>kurkure</li>
+  <li>gold</li>
+  </ul>
+  <hr>
+  <h2>maggie recipe</h2>
+  <ol>
+  <li>boil 1 and half cup of water</li>
+  <li>break the noddle cake in half</li>
+  <li>add the maggie masala</li>
+  <li>add some veggies likr:
+    <ul>
+      <li>potetos</li>
+      <li>carrot</li>
+      <li>onions</li>
+      <li>tometo</li>
+    </ul>
+  </li>
+  <li>cook for 2 minutes</li>
+  <li>aur hamari testy maggie tayar hai!!</li>
+</body>  
+</html>
+
+<html>
+  <body>
+    <h1 style="color: rgba(218, 157, 45, 0.884);">by kuldeep vala </h1>
+  </body>
+</html>
+
+<!DOCTYPE html><html lang="en">
+  <body>
+
+    <h2> maggie </h2>
+    <img src="c:\Users\kpval\Downloads\peakpx.jpg"
+    alt="trulli" width="300" height="200">
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>payment form</h1>
+        <p>required fileds are followed by *</p>
+        <h2>contact information</h2>
+        <p>name: * <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>gender *</legend>
+        <p>
+            male <input type="radio" name="gender" id="male required">
+            female <input type="radio" name="gender" id="female">
+        </fieldset>
+        </p>
+        <p>address: <textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+<p>email: * <input type="email" name="email" id="email"required></p>
+<p>pincode: * <input type="number" name="pincode" id="pincode"required></p>
+<h2>payment information</h2>
+<p>card type: *
+    <select name="card_type" id="card_type"required>
+        <option value="__select a card type__"></option>
+        <option value="visa">visa</option>
+        <option value="rupay">rupay</option>
+        <option value="mastercard"></option>
+    </select>
+</p>
+<p>
+    card number * <input type="number" name="card number" id="card number"required>
+</p>
+<p>
+    expairation date: * <input type="date" name="exp_date" id="exp_date"required>
+</p>
+<p>cvv * <input type="password" name="cvv" id="cvv"required></p>
+<input type="submit" value="pay now">
+    </form>
+</body>
+
+</html>
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        #para1 {
+            text-align: center;
+            color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p id="para1">hello world!</p>
+    <p>this paragraph is not affected
+        by the style.</p>
+
+</body>
+
+</html>
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        p.center {
+            text-align: center;
+            color: red;
+        }
+
+        p.large {
+            font-size: 300%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="center">tihs heading will not be affected</h1>
+    <p class="center">this paragraph will be red and center-aligned.</p>
+    <p class="center large">this paragraph will be red, center-aligned, and in a large font-size.</p>
+</body>
+
+</html>
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        * {
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>hello world!</h1>
+
+    <p>every element on the page will be affected by the style.</p>
+    <p id="para1">me too!</p>
+    <p>and me!</p>
+
+</body>
+
+</html>
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+        body {
+            background-color: linen;
+        }
+    </style>
+</head>
+
+<body style="background-color: lavender">
+
+    <h1>multiple style will cascade into one</h1>
+    <p>here, the background color of
+        the page is set with inline css,
+        and also with an internal css,
+        and also with an internal css.
+    </p>
+    <p>try experimenting by removing
+        style to see how the cascading
+        stylesheets work (try removing
+        the inline css first, then the
+        internal, then the external).
+    </p>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h3 style="color:Tomato;">trycss color</h3>
+
+    <p style="color:rgb(171, 180, 10);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+        lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+</body>
+
+</html>
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <h1 style="border: 2px solid tomato;">hello world</h1>
+    <h1 style="border: 2px solid dodgerblue;">hello world</h1>
+    <h1 style="border: 2px solid violet;">hello world</h1>
+</body>
+
+</html>
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <h1>Specify colors using RGB values</h1>
+
+    <h2 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h2>
+    <h2 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h2>
+    <h2 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h2>
+    <h2 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h2>
+    <h2 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h2>
+    <h2 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Shades of gray</h1>
+
+    <p>By using equal values for red, green, and blue, you will get different shades of gray:</p>
+
+    <h2 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h2>
+    <h2 style="background-color:rgb(90, 90, 90);">rgb(90, 90, 90)</h2>
+    <h2 style="background-color:rgb(120, 120, 120);">rgb(120, 120, 120)</h2>
+    <h2 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h2>
+    <h2 style="background-color:rgb(210, 210, 210);">rgb(210, 210, 210)</h2>
+    <h2 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Make transparent colors with RGBA</h1>
+
+    <h2 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>HSL Saturation</h1>
+
+    <p>The second parameter of hsl() defines the saturation. Less saturation mean less color. 0% is completely gray:</p>
+
+    <h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            background-color: green;
+        }
+
+        div {
+            background-color: rgb(174, 221, 236);
+        }
+
+        p {
+            background-color: rgb(147, 233, 233);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS background-color example!</h1>
+    <div>
+        This is a text inside a div element.
+        <p>This paragraph has its own background color.</p>
+        We are still in the div element.
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("c:\Users\kpval\Downloads\close-up-colored-plant-leaves.jpg");
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hello World!</h1>
+
+    <p>This page has an image as the background!</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.dotted {
+            border-style: dotted;
+        }
+
+        p.dashed {
+            border-style: dashed;
+        }
+
+        p.solid {
+            border-style: solid;
+        }
+
+        p.double {
+            border-style: double;
+        }
+
+        p.groove {
+            border-style: groove;
+        }
+
+        p.ridge {
+            border-style: ridge;
+        }
+
+        p.inset {
+            border-style: inset;
+        }
+
+        p.outset {
+            border-style: outset;
+        }
+
+        p.none {
+            border-style: none;
+        }
+
+        p.hidden {
+            border-style: hidden;
+        }
+
+        p.mix {
+            border-style: dotted dashed solid double;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-style Property</h2>
+    <p>This property specifies what kind of border to display:</p>
+
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border.</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.one {
+            border-style: solid;
+            border-width: 5px;
+        }
+
+        p.two {
+            border-style: solid;
+            border-width: medium;
+        }
+
+        p.three {
+            border-style: dotted;
+            border-width: 2px;
+        }
+
+        p.four {
+            border-style: dotted;
+            border-width: thick;
+        }
+
+        p.five {
+            border-style: double;
+            border-width: 15px;
+        }
+
+        p.six {
+            border-style: double;
+            border-width: thick;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-width Property</h2>
+    <p>This property specifies the width of the four borders:</p>
+
+    <p class="one">Some text.</p>
+    <p class="two">Some text.</p>
+    <p class="three">Some text.</p>
+    <p class="four">Some text.</p>
+    <p class="five">Some text.</p>
+    <p class="six">Some text.</p>
+
+    <p><b>Note:</b> The "border-width" property does not work if it is used alone.
+        Always specify the "border-style" property to set the borders first.</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.one {
+            border-style: solid;
+            border-width: 5px 20px;
+            /* 5px top and bottom, 20px on the sides */
+        }
+
+        p.two {
+            border-style: solid;
+            border-width: 20px 5px;
+            /* 20px top and bottom, 5px on the sides */
+        }
+
+        p.three {
+            border-style: solid;
+            border-width: 25px 10px 4px 35px;
+            /* 25px top, 10px right, 4px bottom and 35px left */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-width Property</h2>
+    <p>The border-width property can have from one to four values (for the top border, right border, bottom border, and
+        the left border):</p>
+
+    <p class="one">Some text.</p>
+    <p class="two">Some text.</p>
+    <p class="three">Some text.</p>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.one {
+            border-style: solid;
+            border-color: red;
+        }
+
+        p.two {
+            border-style: solid;
+            border-color: green;
+        }
+
+        p.three {
+            border-style: dotted;
+            border-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-color Property</h2>
+    <p>This property specifies the color of the four borders:</p>
+
+    <p class="one">A solid red border</p>
+    <p class="two">A solid green border</p>
+    <p class="three">A dotted blue border</p>
+
+    <p><b>Note:</b> The "border-color" property does not work if it is used alone. Use the "border-style" property to
+        set the borders first.</p>
+
+  </body>
+</html>

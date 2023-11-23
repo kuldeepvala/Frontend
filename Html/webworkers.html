@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+
+        <p>count numbers: <output
+        id="result"></output></p>
+        <button
+        onclick="startworker()">startworker</button>
+        <button
+        onclick="stopworker()">stopworker</button>
+
+        <p><strong>note:</strong>
+            internet explor 9 and earial
+            version do not supported web workers.
+        </p>
+
+        <script>
+            var w;
+
+            function startworker() {
+                if(typeof(worker) !==
+                "undefined") {
+                    if(typeof(w) == "undefined")
+                    {
+                        w = new 
+                        worker("demo_worker.js");
+                    }
+                    w.onmessage =
+                    function(event) {
+
+                        document.getelementbyid("result").innerhtml = event.data;
+                    };
+                }else {
+
+                    document.getelementbyid("result").innerhtml = "sorry, your browser dose not supported web workers...";
+                }
+            }
+
+            function stopworker() {
+                w.terminete();
+                w = undefined;
+            }
+        </script>
+
+    </body>
+</html>

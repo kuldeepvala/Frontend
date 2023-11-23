@@ -1,0 +1,452 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        #para1 {
+            text-align: center;
+            color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p id="para1">hello world!</p>
+    <p>this paragraph is not affected
+        by the style.</p>
+
+</body>
+
+</html>
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        p.center {
+            text-align: center;
+            color: red;
+        }
+
+        p.large {
+            font-size: 300%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="center">tihs heading will not be affected</h1>
+    <p class="center">this paragraph will be red and center-aligned.</p>
+    <p class="center large">this paragraph will be red, center-aligned, and in a large font-size.</p>
+</body>
+
+</html>
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        * {
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>hello world!</h1>
+
+    <p>every element on the page will be affected by the style.</p>
+    <p id="para1">me too!</p>
+    <p>and me!</p>
+
+</body>
+
+</html>
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+        body {
+            background-color: linen;
+        }
+    </style>
+</head>
+
+<body style="background-color: lavender">
+
+    <h1>multiple style will cascade into one</h1>
+    <p>here, the background color of
+        the page is set with inline css,
+        and also with an internal css,
+        and also with an internal css.
+    </p>
+    <p>try experimenting by removing
+        style to see how the cascading
+        stylesheets work (try removing
+        the inline css first, then the
+        internal, then the external).
+    </p>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h3 style="color:Tomato;">trycss color</h3>
+
+    <p style="color:rgb(171, 180, 10);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+        lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+</body>
+
+</html>
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <h1 style="border: 2px solid tomato;">hello world</h1>
+    <h1 style="border: 2px solid dodgerblue;">hello world</h1>
+    <h1 style="border: 2px solid violet;">hello world</h1>
+</body>
+
+</html>
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <h1>Specify colors using RGB values</h1>
+
+    <h2 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h2>
+    <h2 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h2>
+    <h2 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h2>
+    <h2 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h2>
+    <h2 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h2>
+    <h2 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Shades of gray</h1>
+
+    <p>By using equal values for red, green, and blue, you will get different shades of gray:</p>
+
+    <h2 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h2>
+    <h2 style="background-color:rgb(90, 90, 90);">rgb(90, 90, 90)</h2>
+    <h2 style="background-color:rgb(120, 120, 120);">rgb(120, 120, 120)</h2>
+    <h2 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h2>
+    <h2 style="background-color:rgb(210, 210, 210);">rgb(210, 210, 210)</h2>
+    <h2 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Make transparent colors with RGBA</h1>
+
+    <h2 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h2>
+    <h2 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>HSL Saturation</h1>
+
+    <p>The second parameter of hsl() defines the saturation. Less saturation mean less color. 0% is completely gray:</p>
+
+    <h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h2>
+    <h2 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h2>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            background-color: green;
+        }
+
+        div {
+            background-color: rgb(174, 221, 236);
+        }
+
+        p {
+            background-color: rgb(147, 233, 233);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS background-color example!</h1>
+    <div>
+        This is a text inside a div element.
+        <p>This paragraph has its own background color.</p>
+        We are still in the div element.
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("c:\Users\kpval\Downloads\close-up-colored-plant-leaves.jpg");
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hello World!</h1>
+
+    <p>This page has an image as the background!</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.dotted {
+            border-style: dotted;
+        }
+
+        p.dashed {
+            border-style: dashed;
+        }
+
+        p.solid {
+            border-style: solid;
+        }
+
+        p.double {
+            border-style: double;
+        }
+
+        p.groove {
+            border-style: groove;
+        }
+
+        p.ridge {
+            border-style: ridge;
+        }
+
+        p.inset {
+            border-style: inset;
+        }
+
+        p.outset {
+            border-style: outset;
+        }
+
+        p.none {
+            border-style: none;
+        }
+
+        p.hidden {
+            border-style: hidden;
+        }
+
+        p.mix {
+            border-style: dotted dashed solid double;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-style Property</h2>
+    <p>This property specifies what kind of border to display:</p>
+
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border.</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.one {
+            border-style: solid;
+            border-width: 5px;
+        }
+
+        p.two {
+            border-style: solid;
+            border-width: medium;
+        }
+
+        p.three {
+            border-style: dotted;
+            border-width: 2px;
+        }
+
+        p.four {
+            border-style: dotted;
+            border-width: thick;
+        }
+
+        p.five {
+            border-style: double;
+            border-width: 15px;
+        }
+
+        p.six {
+            border-style: double;
+            border-width: thick;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-width Property</h2>
+    <p>This property specifies the width of the four borders:</p>
+
+    <p class="one">Some text.</p>
+    <p class="two">Some text.</p>
+    <p class="three">Some text.</p>
+    <p class="four">Some text.</p>
+    <p class="five">Some text.</p>
+    <p class="six">Some text.</p>
+
+    <p><b>Note:</b> The "border-width" property does not work if it is used alone.
+        Always specify the "border-style" property to set the borders first.</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.one {
+            border-style: solid;
+            border-width: 5px 20px;
+            /* 5px top and bottom, 20px on the sides */
+        }
+
+        p.two {
+            border-style: solid;
+            border-width: 20px 5px;
+            /* 20px top and bottom, 5px on the sides */
+        }
+
+        p.three {
+            border-style: solid;
+            border-width: 25px 10px 4px 35px;
+            /* 25px top, 10px right, 4px bottom and 35px left */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-width Property</h2>
+    <p>The border-width property can have from one to four values (for the top border, right border, bottom border, and
+        the left border):</p>
+
+    <p class="one">Some text.</p>
+    <p class="two">Some text.</p>
+    <p class="three">Some text.</p>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.one {
+            border-style: solid;
+            border-color: red;
+        }
+
+        p.two {
+            border-style: solid;
+            border-color: green;
+        }
+
+        p.three {
+            border-style: dotted;
+            border-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The border-color Property</h2>
+    <p>This property specifies the color of the four borders:</p>
+
+    <p class="one">A solid red border</p>
+    <p class="two">A solid green border</p>
+    <p class="three">A dotted blue border</p>
+
+    <p><b>Note:</b> The "border-color" property does not work if it is used alone. Use the "border-style" property to
+        set the borders first.</p>
+
+  </body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    <nav class="nav">
+        <h3>kuldeep<span>vala</span></h3>
+        <ul>
+            <li class="active">Home</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div id="slide">
+            <div class="item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5pAEvAb3EuKwdNbeOGjbrWhuYJOmYgL7SCQ&usqp=CAU);">
+                <div class="content">
+                    <div class="name">कृष्ण<span> जन्माष्टमी </span></div>
+                    <button class="btn">jai shree krishna</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(data:image/jpeg;base64,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);">
+                <div class="content">
+                    <div class="name">कृष्ण<span> जन्माष्टमी </span></div>
+                    <button class="btn">jai shree krishna</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url();">
+                <div class="content">
+                    <div class="name">कृष्ण<span> जन्माष्टमी </span></div>
+                    <button class="btn">jai shree krishna</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(C:\Users\kpval\OneDrive\Documents);">
+                <div class="content">
+                    <div class="name">कृष्ण<span> जन्माष्टमी </span></div>
+                    <button class="btn">jai shree krishna</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(C:\Users\kpval\OneDrive\Documents);">
+                <div class="content">
+                    <div class="name">कृष्ण<span> जन्माष्टमी </span></div>
+                    <button class="btn">jai shree krishna</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(C:\Users\kpval\OneDrive\Documents);">
+                <div class="content">
+                    <div class="name">कृष्ण <span> जन्माष्टमी </span></div>
+                    <button class="btn">jai shree krishna</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(C:\Users\kpval\OneDrive\Documents);">
+                <div class="content">
+                    <div class="name">कृष्ण <span> जन्माष्टमी </span></div>
+                    <button class="btn">jai shree krishna</button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-angle-left fa-2x"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right fa-2x"></i></button>
+        </div>
+    </div>
+      <body>
+    <script document.getElementById('next').onclick = function(){
+        let lists = document.querySelectorAll('.item');
+        document.getElementById('slide').appendChild(lists[0]);
+    }
+    document.getElementById('prev').onclick = function(){
+        let lists = document.querySelectorAll('.item');
+        document.getElementById('slide').prepend(lists[lists.length - 1]);
+    }></script>
+      </body>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    background: linear-gradient(to right, #2b5876, #4e4376);
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    margin-top: -10px;
+    z-index: 999999999999999;
+}
+
+
+
+ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+ul li{
+   font-size: 20px; 
+   cursor: pointer;
+   letter-spacing: 0.1em;
+   color: #e29578;
+   text-shadow: 0px 1px 2px rgba(134, 88, 71, 1);
+   font-weight: 600;
+   transition: all 0.5s ease;
+}
+
+ul li:hover{
+    scale: 110%;
+}
+
+.active{
+    border-bottom: 3px solid #e29578;
+}
+
+h3{
+    font-size: 20px;
+    color: #e29578;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 1px 2px rgba(134, 88, 71, 1);
+    font-weight: 700;
+}
+.nav span{
+    font-size: 20px;
+    color: #0a6177;
+    text-shadow: 0px 1px 1px rgba(18, 35, 39, 1);
+    font-weight: 700;
+}
+.container{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:100vw;
+    height:98vh;
+    padding:50px;
+    background-color: #f5f5f5;
+    box-shadow: 0 10px 20px #dbdbdb;
+}
+#slide{
+    width:max-content;
+    margin-top:50px;
+}
+.item{
+    width:180px;
+    height:280px;
+    background-position: 50% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    transform: translate(0,-50%);
+    border-radius: 20px;
+    box-shadow:  0 10px 20px #505050;
+}
+.item:nth-child(1),
+.item:nth-child(2){
+    left:0;
+    top:0;
+    transform: translate(0,0);
+    border-radius: 0;
+    width:100%;
+    height:100%;
+    box-shadow: none;
+}
+.item:nth-child(3){
+    left:55%;
+}
+.item:nth-child(4){
+    left:calc(55% + 220px);
+}
+.item:nth-child(5){
+    left:calc(55% + 440px);
+}
+.item:nth-child(n+6){
+    left:calc(55% + 660px);
+    opacity: 0;
+}
+.item .content{
+    position: absolute;
+    top:60%;
+    left:100px;
+    width:300px;
+    text-align: left;
+    padding:2rem;
+    color: #0f4c5c;
+    text-shadow: 0px 3px 5px rgba(18, 35, 39, 1);
+    transform: translate(0,-50%);
+    display: none;
+}
+
+span{
+    color: #e29578;
+    font-weight: 900;
+}
+.item:nth-child(2) .content{
+    display: block;
+    z-index: 11111;
+}
+.item .name{
+    font-size: 60px;
+    font-weight: 900;
+    opacity: 0;
+    animation:anim 1s ease-in-out 1 forwards
+}
+
+.btn{
+    padding:0.6rem 1.5rem;
+    margin-top: 2rem;
+    border:none;
+    opacity: 0;
+    font-size: 18px;
+    outline: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #0f4c5c, #e29578, #0f4c5c);
+    text-transform: uppercase;
+    font-weight: 500;
+    animation:anim 1s ease-in-out 0.6s 1 forwards;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    color: #0f4d5c;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 1px 1px rgba(18, 35, 39, 1);
+}
+
+.btn:hover{
+    scale: 105%;
+}
+
+@keyframes anim{
+    from{
+        opacity: 0;
+        transform: translate(0,100px);
+        filter:blur(33px);
+    }to{
+        opacity: 1;
+        transform: translate(0,0);
+        filter:blur(0);
+    }
+}
+.buttons{
+    position: absolute;
+    left: 550px;
+    bottom:60px;
+    z-index: 222222;
+    text-align: center;
+    width:100%;
+}
+.buttons button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:1px solid #555;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: #e29578;
+}
+        </style>
+    </head>
+</body>
+</html>

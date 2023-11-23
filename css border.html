@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            p.dotted {border-style: dotted;}
+            p.dashed {border-style: dashed;}
+            p.solid {border-style: solid;}
+            p.double {border-style: double;}
+            p.groove {border-style: groove;}
+            p.ridge {border-style: inset;}
+            p.inset {border-style: inset;}
+            p.outset {border-style: outset;}
+            p.none {border-style: none;}
+            p.hidden {border-style: hidden;}
+            p.mix {border-style: dotted dashed;}
+            p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+}
+p.seven {
+  border-style: solid;
+  border-color: red;
+}
+
+p.eghit {
+  border-style: solid;
+  border-color: green;
+} 
+
+p.nine {
+  border-style: dotted;
+  border-color: blue;
+} 
+p.class1 {
+  border-style: solid;
+  border-color: red;
+}
+
+p.class2 {
+  border-style: solid;
+  border-color: green;
+} 
+
+p.class3{
+  border-style: dotted;
+  border-color: blue;
+} 
+
+body { 
+text-align: center;
+}
+/* Four values */
+p.class4 {
+  border-style: dotted solid double dashed;
+}
+
+/* Three values */
+p.class5{
+  border-style: dotted solid double;
+}
+
+/* Two values */
+p.class6{
+  border-style: dotted solid;
+}
+
+/* One value */
+p.class7{
+  border-style: dotted;
+}
+p.para1 {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+p.para2 {
+  border-bottom: 6px solid red;
+  background-color: lightgrey;
+}
+p.normal {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+div {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+div.para4 {
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+div.para5 {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+div.para7 {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+p.para9 {
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+p.para10 {
+  margin: 30px;
+  background:yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+        </style>
+    </head>
+    <body>
+       <center> <h2>The border-style property</h2>
+        <p>This property specifies what kind of border to display:</p></center>
+        
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <P class="solid">A solid border.</P>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">A inset border.</p>
+        <p class="outset">A outset border.</p>
+        <p class="none">A none border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+
+        <hr><hr>
+        <center><h2>The border-width property</h2>
+        <p>This property specifies the width of the foyr border:</p></center>
+         
+        <p class="one">Some text.</p>
+        <p class="two">Some text.</p>
+        <p class="three">Some text.</p>
+        <p class="four">Some text.</p>
+        <p class="five">Some text.</p>
+        <p class="six">Some text.</p>
+        <hr>
+        <hr>
+         <center><h2>The boreder-color property</h2>
+                  <P>This property specifies the color of the four border:</P></center>
+        
+                  <p class="class1">A solid red border</p>
+                  <p class="class2">A solid green border</p>
+                  <p class="class3">A dotted blue border</p>
+                  <hr>
+                  <hr>
+                  <center><h2>Individual Border Sides</h2></center>
+                  <p class="class4">4 different border styles.</p>
+                  <p class="class5">3 different border styles.</p>
+                 <p class="class6">2 different border styles.</p>
+                  <p class="class7">1 border style.</p>
+                  <hr>
+                  <hr>
+                  <center><h2>Shorthand Property</h2>
+                           <h2>left-border</h2></center>
+
+                           <p class="para1">This property is Shorthand property
+                            for border-left-width,border-left-style,
+                            and border-left-color. </p>
+                            <hr>
+                            <hr>
+                            <center><h2>The border-bottom Property</h2></center>
+                            <p class="para2"> This property is a Shorthand 
+                            property for border-bottom-width, border-bottom-style,
+                           and border-bottom-color.</p>
+                           <hr><hr>
+                           <center><h2>The border-radius Property</h2>
+                                  <p>This property is used to add rounded 
+                                    borders to an element:</p></center>
+                                   
+                                    <p class="normal">Normal border</p>
+                                    <p class="round1">Round border</p>
+                                    <p class="round2">Rounder border</p>
+                                    <p class="round3">Roundest border</p>
+                                    <hr>
+                                    <hr>
+                                    <center><h2>Margin - Individual margin
+                                         properties</h2></center>
+                                         <div>This div element has a top margin
+                                         of 100px, a right margin of 150px, a 
+                                         bottom margin of 100px, and a left margin 
+                                         of 80px.</div>    
+                                         <hr><hr> 
+                                         <h2>Use of the inherit value</h2>
+                                         <p>Let the left margin be inherited from the parent element:</p>
+
+                                          <div>
+                                         <p class="ex1">This paragraph has 
+                                        an inherited left margin (from the div element).</p>
+                                        </div>
+                                        <hr><hr>
+                                        <center><h2>Use of margin: auto</h2>
+                                        <p>You can set the margin property 
+                                        to auto to horizontally center the 
+                                        element within its container. The element 
+                                        will then take up the specified width, 
+                                        and the remaining space will be split 
+                                        equally between the left and right margins:</p></center>
+                                                  
+                                        <div>
+                                            This div will be horizontally centered because it has margin: auto;
+                                            </div>
+                                            <hr>
+                                            <hr>
+                                          <center><h2>CSS Padding</h2></center>  
+                                          <div class="para4">This element has a padding of 70px.</div>
+                                          <hr>
+                                          <hr>
+                                           <center><h2>Set the height and width of an element</h2>
+                                           </center>
+
+                                           <div class="para5">This div element has a height of 200px and a width of 50%.</div>
+                                           <hr><hr>
+                                            <center><h2>Calculate the total width:
+                                            </h2></center>
+
+                                            <img src="https://www.w3schools.com/css/klematis4_big.jpg" width="350" height="263" alt="Klematis">
+                                            <center><div class="para7">The picture above is 350px wide. The total width of this element 
+                                            is also 350px. The total height of this element is 80px.</div></center>
+                                             <hr><hr>
+                                             <center><h2>CSS Outline</h2></center>
+                                             <p class="para9">This element has a 2px black border and a green outline with a width of 10px.</p>
+                                             <hr><hr><hr>
+                                             <center><h2>The outline-offset Property</h2></center>
+                                             <p class="para10">This paragraph has an outline of 15px outside the border edge.</p>
+
+
+
+
+    </body>
+</html>
+
+
