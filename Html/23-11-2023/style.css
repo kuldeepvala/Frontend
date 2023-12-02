@@ -802,3 +802,135 @@ font-style: italic;
 font-weight: 400;
 line-height: normal;
    }
+   .e9{
+    margin-top:30px ;
+    margin-left:340px ;
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   }
+   .e10{
+    margin-left:340px ;
+    color: #3C4761;
+font-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+   .e11{
+    margin-top: -40px;
+    margin-left: 960px;
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   }
+   .e12{
+    color: #3C4761;
+    font-family: Titillium Web;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 960px;
+   }
+   .e13{
+    margin-top: 90px;
+    margin-left: 180px;
+   }
+   .e15{
+    margin-top:-80px ;
+    margin-left:330px ;
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 21px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+   }
+   .e16{
+    margin-top:-85px ;
+    margin-left: 800px;
+   }
+   .e17{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 21px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+margin-top:-85px ;
+margin-left: 950px;
+}
+.e18{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 40px;
+margin-left: 330px;
+}
+.e19{
+    color: #3C4761;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 330px;
+}
+.e20{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: -50px;
+margin-left: 950px;
+}
+.e21{
+    color: #3C4761;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 950px;
+}
+.f1{
+    width: 1550px;
+height: 818.96px;
+flex-shrink: 0;
+}
+.f2{
+    color: #3C4761;
+text-align: center;
+font-family: Titillium Web;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 200px;
+}
+.f3{
+    margin-top: -80px;
+    margin-left: 730px;
+}
+.f4{
+    color: #3C4761;
+text-align: center;
+font-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 40px;
+}
