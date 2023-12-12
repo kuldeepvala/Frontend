@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/6fedec98cd.js" crossorigin="anonymous"></script>
+    <style>
+        body
+        {
+      font-family: poppins;
+
+        }
+        main {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(114, 165, 181);
+        }
+
+        form
+        {
+            width: 30%;
+            background-color: gray;
+            height: 590px;
+
+
+        }
+        .bg {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 5px;
+        }
+
+        .sin {
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            
+            
+        }
+
+        .google-btn
+        {
+        padding: 16PX;
+        width: 400px;
+        color:white;
+        background-color: grey;
+        }
+       .name{
+        padding: 10px;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+       }
+       .input{
+        width: 400px;
+        padding: 10px;
+       }
+       .email{
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        padding: 10px;
+       }
+       .Password{
+        padding: 10px;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+       }
+       .checkbox{
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+       }
+       .checkbox a{
+        color: yellow;
+       }
+       .submit{
+        padding: 12PX;
+        width: 400px;
+        color:white;
+        background-color: rgb(192, 196, 88);
+       font-size: 24px;
+       font-weight: 700;
+       }
+       .account{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+       }
+       .signup a{
+        font-size: 20px;
+        font-weight: 700;
+        color: yellow;
+       }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <div class="bg">
+                <div class="sin">
+                    Sign up
+                </div>
+                <div class="x-mark"><i class="fa-regular fa-circle-xmark fa-xl" ></i></div>
+            </div>
+           <center> <button type="button" class="google-btn" ><i class="fa-solid fa-g fa-lg"></i> Sign up with Google</button><hr></center>
+   </div>
+   <div class="name">
+    <label for="fname"> Name</label><br>
+    <input class="input" type="text" id="fname"  placeholder="Enter Your Full Name...">
+   </div>
+   <div class="email">
+    <label for="fname"> email</label><br>
+    <input class="input 1" type="text" id="fname"  placeholder="Enter Your email address...">
+   </div>
+   <div class="Password">
+    <label for="fname"> password</label><br>
+    <input class="input " type="text" id="fname"  placeholder="at least 8 characters...">
+   </div>
+   <div class="checkbox">
+   <input type="checkbox" ><label>I agree with  <a href="terms">terms</a> and <a href="privacy">privacy</a></label>
+  </div>
+  <center> <button type="button" class="submit" >submit</button><hr>
+    <div class="account">Already have an account?</div>
+    <div class="signup"><a href="signup">signup</a></div>
+        </form>
+    </main>
+
+</body>
+
+</html>
