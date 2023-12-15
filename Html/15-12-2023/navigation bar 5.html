@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6fedec98cd.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 100%;
+            min-height: 100vh;
+            background-color: gainsboro;
+        }
+
+        .main2 {
+            padding: 2rem;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+        }
+
+        .a1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+        }
+
+        .logo {
+            margin: -20px 0 0 20px; 
+        }
+
+        .content {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .content a {
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 15px;
+        }
+
+        .btn {
+            display: flex;
+            gap: 1rem;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 30px;
+            width: 90px;
+            margin-top: -30px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .main2 {
+                padding: 1rem;
+            }
+
+            .a1 {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .logo {
+                margin: 10px 0; 
+            }
+
+            .content {
+                flex-direction: column;
+                text-align: center;
+               
+            }
+
+            .btn {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main2">
+            <div class="a1">
+                <div class="logo"><img src="/Html/img/logo.png" height="40px"></div>
+                <div class="content">
+                    <a href="HOME">HOME</a>
+                    <a href="PRODUCT">PRODUCT</a>
+                    <a href="ABOUT US">ABOUT US</a>
+                    <a href="CONTACATS">CONTACTS</a>
+                </div>
+                <div class="btn">
+                    <button>Sign in</button>
+                    <button>Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
