@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6fedec98cd.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+            width: 100%;
+            min-height: 100vh;
+            background-color: gainsboro;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .a1 {
+            width: 100%;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .content1, .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .logo {
+            margin: 10px;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content a, .content1 a {
+            color: black;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: medium;
+            padding: 10px;
+        }
+
+        i {
+            font-size: x-large;
+            margin: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .content1, .content, .logo , .icon{
+                flex: 1 100%;
+                text-align: center;
+            }
+            .content1{
+                flex-direction: column;
+                text-align: center;
+            }
+            .content{
+                flex-direction: column;
+                text-align: center;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a1">
+            <div class="content1">
+                <a href="HOME">HOME</a>
+                <a href="PRODUCT">PRODUCT</a>
+
+            </div>
+            <div class="logo"><img src="/Html/img/logo.png" height="40px"></div>
+            <div class="content" >
+                <a href="ABOUT US">ABOUT US</a>
+                <a href="CONTACATS">CONTACTS</a>
+            </div>
+            <div class="icon"><i class="fa-solid fa-magnifying-glass" ></i></div>
+    </div>
+</body>
+</html>
+
+
+
+
