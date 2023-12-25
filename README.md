@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :flex task.
+topic :pamphlet task.
