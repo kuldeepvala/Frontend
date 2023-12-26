@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :pamphlet task.
+topic :media query task.
