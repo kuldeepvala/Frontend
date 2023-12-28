@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 15px;
+  }
+  .header {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 90%;
+  }
+  .nav {
+    display: grid;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    list-style-type: none;
+    color: rgb(7, 7, 7);
+  }
+  .nav ul li {
+    padding: 0 50px;
+  }
+  .nav ul li:hover {
+    background-color: rgb(45, 171, 89);
+  }
+  .body {
+    background-image: url(/Html/img/media\ query\ 3.jpeg);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: rgb(112, 205, 223);
+    padding-left: 25px;
+  }
+  .container_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 233px;
+    place-items: center;
+    column-gap: 20px;
+  }
+ .footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+  .content1,
+  .content2,
+  .content3 {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid rgb(129, 189, 34);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dfdfdfdd;
+  }
+  .content2 {
+     background-color: #a6a4a4dd;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    display: grid;
+    place-items: center;
+  }
+  @media (max-width: 768px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .body {
+      display: flex;
+      width: 100%;
+    }
+  
+    .logo{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .nav {
+      grid-row: auto;
+      grid-column: auto;
+      margin-top: 10px;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+    }
+  
+    .nav ul li {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .container_content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .content1,
+    .content2,
+    .content3 {
+      display: flex;
+      flex-direction: column;
+      margin: 12px;
+    }
+    .nav ul li:hover {
+        background-color: rgb(45, 171, 89);
+      }
+      .footer{
+        background-color: rgb(213, 213, 213);
+
+      }
+  }

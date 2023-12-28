@@ -427,22 +427,22 @@ body {
     width: 163px;
     height: 32px;
     flex-shrink: 0;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 210px;
 }
 
 .b22 {
-    margin-top: -30px;
-    margin-left: 545px;
+    margin-top: -20px;
+    margin-left: 530px;
 }
 
 .b23 {
-    margin-top: -35px;
+    margin-top: -20px;
     margin-left: 865px;
 }
 
 .b24 {
-    margin-top: -35px;
+    margin-top: -20px;
     margin-left: 1190px;
 }
 
@@ -802,3 +802,100 @@ font-style: italic;
 font-weight: 400;
 line-height: normal;
    }
+   .b25{
+    margin-top: -30px;
+    margin-left: 250px;
+   }
+   .b26{
+    margin-top: -20px;
+    margin-left:300px ;
+   }
+   .b27{
+    margin-top: -17px;
+    margin-left: 345px;
+   }
+   .b28{
+    margin-top: -20px;
+    margin-left: 590px;
+   }
+   .b29{
+    margin-top: -16px;
+    margin-left: 650px;
+   }
+   .b30{
+    margin-top: -17px;
+    margin-left: 910px;
+   }
+   .b31{
+    margin-top: -18px;
+    margin-left:960px ;
+   }
+   .b32{
+    margin-top: -18px;
+    margin-left: 1010px;
+   }
+   .b33{
+    margin-top: -18px;
+    margin-left: 1240px;
+   }
+   .b34{
+    margin-top: -18px;
+    margin-left: 1300px;
+   }
+   .e9{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 20px;
+margin-left: 345px;
+   }
+   .e10{
+    color: #293238;
+font-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-left: 345px;
+   }
+   .e11{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top:-48.1px ;
+margin-left: 970px;
+   }
+.e12{
+    color: #3C4761;
+font-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-left: 970px;
+}
+.e13{
+    width: 96px;
+height: 96px;
+flex-shrink: 0;
+margin-top: 90px;
+margin-left: 180px;
+}
+.e14{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 21px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+margin-top: -80px;
+margin-left: 330px;
+}

@@ -1,6 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
+@media screen and (max-width:400px) {
+    .a1 , .a2 ,.a3,.a4.a5.a6{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .a1 {
@@ -427,22 +431,22 @@ body {
     width: 163px;
     height: 32px;
     flex-shrink: 0;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 210px;
 }
 
 .b22 {
-    margin-top: -30px;
-    margin-left: 545px;
+    margin-top: -20px;
+    margin-left: 530px;
 }
 
 .b23 {
-    margin-top: -35px;
+    margin-top: -20px;
     margin-left: 865px;
 }
 
 .b24 {
-    margin-top: -35px;
+    margin-top: -20px;
     margin-left: 1190px;
 }
 
@@ -802,3 +806,199 @@ font-style: italic;
 font-weight: 400;
 line-height: normal;
    }
+   .b25{
+    margin-top: -30px;
+    margin-left: 250px;
+   }
+   .b26{
+    margin-top: -20px;
+    margin-left:300px ;
+   }
+   .b27{
+    margin-top: -17px;
+    margin-left: 345px;
+   }
+   .b28{
+    margin-top: -20px;
+    margin-left: 590px;
+   }
+   .b29{
+    margin-top: -16px;
+    margin-left: 650px;
+   }
+   .b30{
+    margin-top: -17px;
+    margin-left: 910px;
+   }
+   .b31{
+    margin-top: -18px;
+    margin-left:960px ;
+   }
+   .b32{
+    margin-top: -18px;
+    margin-left: 1010px;
+   }
+   .b33{
+    margin-top: -18px;
+    margin-left: 1240px;
+   }
+   .b34{
+    margin-top: -18px;
+    margin-left: 1300px;
+   }
+   .e9{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 20px;
+margin-left: 345px;
+   }
+   .e10{
+    color: #293238;
+font-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-left: 345px;
+   }
+   .e11{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top:-48.1px ;
+margin-left: 970px;
+   }
+.e12{
+    color: #3C4761;
+font-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-left: 970px;
+}
+.e13{
+    width: 96px;
+height: 96px;
+flex-shrink: 0;
+margin-top: 90px;
+margin-left: 180px;
+}
+.e14{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 21px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+margin-top: -80px;
+margin-left: 330px;
+}
+.e15{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 330px;
+margin-top: 20px;
+}
+.e16{
+    color: #3C4761;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 330px;
+}
+.e17{
+    margin-top: -150px;
+    margin-left: 810px;
+}
+.e18{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 21px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+margin-left: 970px;
+margin-top: -90px;
+}
+.e19{
+    color: #273A71;
+font-family: Titillium Web;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left:980px ;
+margin-top: 20px;
+}
+.e20{
+    color: #3C4761;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left:980px ;
+}
+.s1{
+    width: 1550px;
+height: 818.96px;
+flex-shrink: 0;
+color: #fff;
+}
+.s2{
+    color: #3C4761;
+text-align: center;
+font-family: Titillium Web;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 100px;
+}
+.s3{
+    margin-top: 1px;
+    margin-left: 730px;
+}
+.s4{
+    color: #3C4761;
+text-align: center;
+font-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+}
+#s5 input[type=text], select {
+   width: 414px;
+   height: 56px;
+   flex-shrink: 0;
+   background-color: #273A71;
+   margin-left: 290px;
+   margin-top: 72px;
+}
+
+   #s6 input[type=text], select   {
+        width: 414px;
+        height: 56px;
+        flex-shrink: 0;
+        background-color: #273A71;
+        margin-left: 390px;
+        margin-top: -70px;
+}

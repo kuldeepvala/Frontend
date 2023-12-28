@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6fedec98cd.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+        background-color: rgb(221, 222, 223);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .main {
+        background-color: white;
+        width: 100%;
+      }
+      .content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+      }
+      .btn {
+        border-radius: 30px;
+        padding: 10px;
+        width: 100px;
+      }
+      .icon i {
+        margin: 10px;
+      }
+      .logo img {
+        height: 40px;
+      }
+      .content1 a {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+        font-size: medium;
+      }
+      .content1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 10px;
+        margin-left: 300px;
+      }
+      hr {
+        margin: 0 20px;
+      }
+      .blenc {
+        display: flex;
+        justify-content: space-between;
+      }
+      .icon2 i {
+        padding: 10px;
+        margin-left: 200px;
+      }
+       
+      @media (max-width: 768px) {
+        .content {
+          flex-direction: column;
+          text-align: center;
+          align-items: stretch;
+        }
+        .icon {
+          margin-top: 10px;
+          
+        }
+       .content,.btn {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+        }
+        .content1 {
+          padding: 10px;
+          margin-left: 0;
+          flex-direction: column;
+          align-items: center;
+        }
+        .icon2 i {
+          margin-left: auto;
+          display: flex;
+         align-items: center;
+         flex-direction: column;
+        }
+      }
+    </style>
+ </head>
+ <body>
+    <div class="main">
+        <div class="content">
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-vimeo"></i>
+            </div>
+            <div class="logo"><img src="/Html/img/logo.png" height="40px"></div>
+            <button class="btn">Sign in</button>
+        </div>
+        <hr style="margin: 0 145px 0 145px;">
+        <div class="content1">
+            <div class="blenc"></div>
+            <a href="HOME">HOME</a>
+            <a href="HOME">PRODUCTS</a>
+            <a href="HOME">ABOUTUS</a>
+            <a href="HOME">PRICING</a>
+            <a href="HOME">BLOGS</a>
+            <a href="HOME">CONTACTS</a>
+            <div class="icon2"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+    </div>
+ </body>  
+</html>
