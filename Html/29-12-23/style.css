@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#id1
+{
+  background-image: url('/Html/img/Main_components.webp');
+  filter: sepia(0.4);
+height: 650px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ color: white;
+ 
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.content2 {
+  display: flex;
+  justify-content: center;
+ margin-top: 170px;
+}
+ .btn{
+  width: 160PX;
+  height: 60px;
+  background-color: rgb(200, 100, 0);
+  color: white;
+  border: none;
+}
+.but{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.content2 h1{
+  font-size: 50px;
+}
+.li1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+   
+}
