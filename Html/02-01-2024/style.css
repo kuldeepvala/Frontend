@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: Overpass, sans-serif;
+    background-color: #f5f5f5; 
+}
+#id1 {
+    background-image: url('../img/Main_components.webp');
+    filter: sepia(0.4);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    text-align: center;
+}
+.btn {
+    width: 160px;
+    height: 60px;
+    background-color: rgb(200, 100, 0);
+    color: rgb(234, 232, 232);
+    border: none;
+}
+.but {
+    display: flex;
+    justify-content: center;
+}
+.content2 h1 {
+    font-size: 30px;
+	font-family: Overpass, sans-serif;
+}
+.li1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.img img {
+    width: 100%;
+    padding: 90px;
+}
+.id2{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.solid{
+    border-top: 10px solid #dc8538;
+    border-radius: 1px;
+    width: 90px;
+}
+.post{
+   padding: 90px;
+   background-color: rgb(234, 230, 230);
+}
+.post h2{
+    font-family: 'Courier New', Courier, monospace;  
+}
+.post .p1{
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btn2{
+    width: 170px;
+    height: 60px;
+    background-color: rgb(213, 213, 213);
+    border-color: #fd7600;
+}
+.btn2:hover{
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border-color: white;
+}
+.container3 img{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    object-fit: cover;
+}
+.container4{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    text-align: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+.container5{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 2fr));
+}
+.container5 .img3{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-image: url('../img/fifth_components_1.webp');
+    height: 60vh;
+}
+.container5 .img4{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-image: url('../img/fifth_components_2.webp');
+    height: 60vh;
+}
+.container5 .img5{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-image: url('../img/fifth_components_3.webp');
+    height: 60vh;
+}
+.img4:hover,
+.img3:hover,
+.img5:hover{
+    opacity: 0.8;
+}
+.img6{
+    width: 50%;
+}
+  .id3{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.container6 {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ background-image: url('../img/seven_componets.webp');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 70vh;
+ row-gap: 2rem;
+ background-position: 0 -260px;
+}
+.container6 .h1{
+    color: white;
+    padding-top: 90px;
+    font-weight: 700;
+    font-size: 3rem;
+	font-family: Overpass, sans-serif;
+}
+.container6 .h5{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn6{
+    width: 160PX;
+    height: 50px;
+    background-color: rgb(200, 100, 0);
+    color: white;
+    border: none;
+  }
+  .container7{
+    background-color: rgb(69, 76, 84);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2em;
+  }
+  .id5{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding-top: 70px;
+    gap: 13rem;
+    justify-content: center;
+    line-height: 2.5rem;
+  }
+  .id5 a{
+    text-decoration: none;
+    color: rgb(185, 184, 184);
+    display: flex;
+    opacity: 0.5;
+  }
+  .id5 h4 {
+    color: white;
+    opacity: 0.8;
+  }
+  .id5 h1{
+    color: lightslategrey;
+    opacity: 0.6;
+  }
+  .text6  {
+    height: 30vh;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    background-color: rgb(69, 76, 84);
+    padding-top: 90px;
+   letter-spacing: 0.2em;
+   font-size: small;
+    } 
+@media only screen and (max-width: 768px) {
+    #id1 {
+        height: 400px;
+    }
+
+    .content {
+        align-items: center;
+        text-align: center;
+        
+    }
+    .content2 h1{
+        margin-top: 60px;
+    }
+    .content2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .btn,
+    .content2 h1,
+    .li1 {
+        font-size: smaller;
+    }
+    .id2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img img {
+        width: 100%;
+        padding: 30px;
+    }
+    .post .p1{
+        font-size: 0.850rem;
+        font-weight: 100;
+        line-height: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .btn2{
+        width: 100px;
+        height: 30px;
+        border-color: #fd7600;
+    }
+    .container4{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        flex-direction:column ;
+        text-align: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    .container5{
+        display: flex;
+        flex-direction: column;
+    }
+    .id3{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .container6 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 110vh;
+        background-size: cover;
+        background-position: center;
+        row-gap: 3rem;
+        text-align: center;
+       }
+       .container6 .h1{
+        color: white;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .container6 .h5{
+        color: white;
+        font-weight: 200;
+        font-size: 0.9em;
+    }
+    .id5 {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .id5 a{
+        display: block;
+        align-items: center;
+    }
+    .text6  {
+        height: 50vh;
+        text-align: center;
+        padding-top: 90px;
+       letter-spacing: 0.2em;
+        } 
+    
+}
+
