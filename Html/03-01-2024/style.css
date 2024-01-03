@@ -192,19 +192,17 @@ body {
   }
   .container7{
     height: 20rem;
-    background-color: rgb(69, 76, 84);
+    background-color: rgb(56, 65, 76);
   }
   .id5{
+    padding: 70px;
     display: flex;
     justify-content: space-around;
     letter-spacing: 0.2em;
-    align-items: center;
   }
   .id5{
-    padding: 90px;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    padding-top: 70px;
     gap: 13rem;
     justify-content: center;
     line-height: 2.5rem;
@@ -224,11 +222,11 @@ body {
     opacity: 0.6;
   }
   .text6  {
-    padding: 20px;
+    padding: 70px;
     font-size: small;
     text-align: center;
     color: rgb(153, 153, 153);
-    background-color: rgb(69, 76, 84);
+    background-color: rgb(56, 65, 76);
    letter-spacing: 0.2em;
    font-size: small;
     } 
