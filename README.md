@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :pemplhet task modified.
+topic :pemplhet task modified & bootstrap get started.
