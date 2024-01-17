@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :pemplhet task modified & bootstrap get started.
+topic :container, grid, color, img, alerts, table.
