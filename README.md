@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :container, grid, color, img, alerts, table.
+topic :button, progressbar, badges, spinners, button grup.
