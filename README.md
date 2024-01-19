@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :button, progressbar, badges, spinners, button grup.
+topic :Pagination, List Groups, Cards.
