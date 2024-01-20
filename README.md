@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :Pagination, List Groups, Cards.
+topic :dropdowns, collapsible, nav.
