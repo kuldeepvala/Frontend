@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :dropdowns, collapsible, nav.
+topic :navbar, modal, tooltip, Carousel.
