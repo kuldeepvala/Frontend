@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :navbar, modal, tooltip, Carousel.
+topic :pover, toast, offcanvas, Scrollspy, Utilities.
