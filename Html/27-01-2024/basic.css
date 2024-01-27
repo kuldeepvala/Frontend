@@ -1,0 +1,7 @@
+@media only screen and (max-width: 768px) {
+.fakeimg{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+}

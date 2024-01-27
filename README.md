@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :reng, grid.
+topic :bootstrap page.
