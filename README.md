@@ -2,4 +2,4 @@
 
 *task : html-css
 
-topic :bootstrap page.
+topic :bootstrap task 1.
