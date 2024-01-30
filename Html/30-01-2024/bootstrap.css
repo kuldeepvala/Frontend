@@ -1,0 +1,82 @@
+body{
+    background-color: #000;
+    }
+    #ul, li ,a{
+    margin-bottom: 40px;
+    }
+    .form-control::placeholder{
+        color: #adadad;
+    }
+    form{
+        background-color: #101010;
+        border-radius: 10px;
+    }
+    #navbar1, nav{
+        height: 100vh;
+        width: 30%;
+    }
+    .name {
+        font-size:20px ;
+        color: white;
+    }
+    .name1{
+        font-size: 15px;
+        color: white;
+    }
+    .nav-3, .col-md-6{
+        height: 12vh;
+    }
+    .navbar1 {
+        width: 100px;
+    }
+    .container3{     
+     font-family: Poppins;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 0.8px;
+    }
+    .container3  .text-white{
+        font-size:medium;
+    }
+    .container4 .container4-1{
+     color: #FFF;
+     font-family: Oswald;
+     font-size: 50px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 1px;
+    }
+    .container4-1  .text-white{
+        font-size: medium;
+    }
+    .container4{
+        background-image: url("../img/nairobi.png");
+        height: 50vh;
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-color: #151515;
+       border-radius: 30px;
+       
+    }
+    .container4-2{
+        size: 50px;
+    }
+    @media only screen and (max-width: 768px) {
+        #navbar1, nav {
+            display: grid;
+            justify-content: space-between;
+            height: auto;
+        } 
+        form{
+            background-color: #101010;
+            border-radius: 10px;
+        }  
+        .nav-2, .input-group{
+           display: grid;
+           column-span: all;
+        }
+    }
+    
