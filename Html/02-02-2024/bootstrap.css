@@ -1,0 +1,424 @@
+body{
+    background-color: #000;
+    }
+    #ul, li ,a{
+    margin-bottom: 40px;
+    }
+    .form-control::placeholder{
+        color: #adadad;
+    }
+    form{
+        background-color: #101010;
+        border-radius: 10px;
+    }
+    #navbar1, nav{
+        height: 100vh;
+        width: 100px;
+    }
+    .name {
+        font-size:20px ;
+        color: white;
+    }
+    .name1{
+        font-size: 15px;
+        color: white;
+    }
+    .nav-3, .col-md-6{
+        height: 12vh;
+    }
+    .navbar1 {
+        width: 100px;
+    }
+    .container3{     
+     font-family: Poppins;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 0.8px;
+    }
+    .container3  .text-white{
+        font-size:medium;
+    }
+    .container4 .container4-1{
+     color: #FFF;
+     font-family: Oswald;
+     font-size: 50px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 1px;
+    }
+    .container4-1  .text-white{
+        font-size: medium;
+    }
+    .container4{
+        background-image: url("../img/nairobi.png");
+        height: 50vh;
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-color: #151515;
+       border-radius: 30px;
+       
+    }
+    .container4-2{
+        size: 50px;
+    }
+    .camera1{
+        width: 893.527px;
+        height: 893.527px;
+      transform: rotate(2.819deg);
+      flex-shrink: 0;
+      position: absolute;
+      top: -10rem;
+      left: 14rem;
+    }
+    .container4-2{
+     font-family: Poppins;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+    }
+    .container4-2  .container4-2-1 img{
+        border-radius: 20px;
+    }
+    .upcoming {
+        color: #FFF;
+        text-align: center;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.04rem;
+    }
+    .more {
+
+        color: #FE1F27;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.04rem;
+    }
+    
+    .card-bg {
+        padding: 1.5rem;
+    }
+    
+    .sept-2 {
+        color: #FE1F27;
+        text-align: center;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .sept-2-text {
+        color: #FFF;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .sept-2-title {
+        color: #FFF;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.03rem;
+    }
+    
+    .prize {
+        color: #FE1F27;
+        margin: 0.5rem;
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.0325rem;
+    }
+    
+    .price {
+        color: #FFF;
+        font-style: normal;
+        letter-spacing: 0.01625rem;
+    }
+    .eth {
+        color: #FE1F27;
+        font-family: 'Poppins';
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .time {
+        color: #FFF;
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .win {
+        color: #FFF;
+        font-size: 1.1875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.0475rem;
+    }
+    
+    .inamong {
+        color: #FE1F27;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.0175rem;
+    }
+    
+    .count {
+        color: #ABA9C2;
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .leftcount {
+        color: #FE1F27;
+        font-family: 'Poppins';
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .sub-title-cha {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .btn-5 {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        border-radius: 0.25rem;
+        padding: 0.5rem 1.5rem;
+        background: var(--nairobi-red-fe-1-f-27, #FE1F27);
+    }
+    
+    .btn-6 {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        border-radius: 0.25rem;
+        padding: 0.5rem 1.5rem;
+        background: #202020;
+    }
+    
+    .challenges {
+        text-align: end;
+    }
+    
+    
+    @media only screen and (max-width: 700px) {
+        .challenges {
+            text-align: center;
+        }
+    }
+    
+    .table-f-2 {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .game-font {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+    }
+    
+    .mul-font {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+    }
+    
+    .timer-font {
+        color: #FE1F27;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .timer-font:hover {
+        color: white;
+    }
+    
+    #customers tr:nth-child(odd) {
+        background-color: #101010;
+        margin-right: 7rem;
+    }
+    
+    table {
+        border-radius: 15px 10px 20px;
+    }
+    
+    #customers tr td:last-child {
+        justify-content: end;
+    }
+    
+    td {
+        justify-content: center;
+        border: 0px;
+    }
+    
+    
+    .radius {
+        border: 1px solid red;
+        border-radius: 1.5rem 0.5rem;
+    }
+    
+    .chat-title {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 1.4375rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    
+    .btn-7 {
+        font-size: 0.8rem;
+        display: flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0.34375rem 0.3125rem 0.28125rem 0.3125rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.25rem;
+        background: var(--nairobi-red-fe-1-f-27, #FE1F27);
+        color: white;
+    }
+    
+    .team-title {
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .level {
+        color: #ABADB5;
+        font-family: 'Poppins';
+        font-size: 0.6875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .card-team-chat {
+        color: white;
+    }
+    .card-team-chat:hover{
+        background: linear-gradient(
+    90deg,
+    #fe1f27 -18.4%,
+    rgba(254, 31, 39, 0) 78.98%
+  );
+    }
+    .terms {
+        color: #EEE;
+        font-family: 'Inter';
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .iqonic {
+        color: #61A0FF;
+        font-family: 'Inter';
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .full {
+        color: #EEE;
+        font-family: 'Inter';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .t2021 {
+        color: #EEE;
+        font-family: 'Inter';
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .table{
+        margin-top: 120px;
+    }
+    .title-cha{
+        color: white;
+        font-size:2rem;
+        font-weight: 500;
+        letter-spacing: 0.04rem;
+    }
+    
+    
+    
+    
+    @media only screen and (max-width: 768px) {
+        #navbar1, nav {
+            display: grid;
+            justify-content: space-between;
+            height: auto;
+        } 
+        form{
+            background-color: #101010;
+            border-radius: 10px;
+        }  
+        .nav-2, .input-group{
+           display: grid;
+           column-span: all;
+        }
+    }
+    

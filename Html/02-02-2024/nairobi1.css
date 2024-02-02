@@ -1,0 +1,32 @@
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/NairobiPose01_3\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.pas-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    height: 50vh;
+    width: 500px;
+}
+.text-box{
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-box-1{
+    font-size: 15px;
+    width: 320px;
+}
+.pas-box-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
