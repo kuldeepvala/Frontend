@@ -1,32 +1,49 @@
-body{
+body {
     background-color: #000;
     margin: 0;
     padding: 0;
     background-image: url("../img/NairobiPose01_3\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
-.pas-box{
+
+.pas-box {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    height: 50vh;
-    width: 500px;
+    width: 80%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px; 
 }
-.text-box{
-    font-size: 30px;
+
+.text-box {
+    font-size: 2vw; 
     font-weight: 400;
+    text-align: center; 
 }
-.text-box-1{
-    font-size: 15px;
-    width: 320px;
+
+.text-box-1 {
+    font-size: 1vw; 
+    max-width: 90%;
+    text-align: center; 
 }
-.pas-box-1{
+
+.pas-box-1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .text-box {
+        font-size: 3vw; 
+    }
+    .text-box-1 {
+        font-size: 2vw;
+    }
 }

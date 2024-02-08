@@ -43,7 +43,9 @@ body{
         border-radius: 20px;
         height: 90%;
         width: 60%;
+        padding: 30px;
         gap:0px
+        
     }
     .col-md-6 {
         display: flex;
