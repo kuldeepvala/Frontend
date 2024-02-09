@@ -560,6 +560,12 @@ body{
   .card-1{
     padding: 20px;
   }
+  .footer .col-md-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 }
     
     

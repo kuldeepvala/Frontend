@@ -28,6 +28,9 @@ body{
     justify-content: end;
     margin-top: -20px;
 }
+.email {
+    width: 75%;
+}
 @media only screen and (max-width: 768px) {
 
     .main{
@@ -42,7 +45,7 @@ body{
         align-items: center;
         border-radius: 20px;
         height: 90%;
-        width: 60%;
+        width: 90%;
         padding: 30px;
         gap:0px
         
@@ -57,4 +60,20 @@ body{
     .logo{
         margin-top: 30px;
     }
+   .text-danger{
+    margin-left: 50px;
+   }
+   .btn{
+    margin-top: 30px;
+   }
+   .text1{
+    margin-top: 40px;
+    text-align: center;
+   }
+   .sign-in ,.text{
+    margin-bottom: 40px;
+   }
+   .email , .form-label{
+    width: 230px;
+   }
 }
