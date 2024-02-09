@@ -16,7 +16,20 @@ body{
     font-size: 19px;
     font-weight: 400;
 }
-
+.container-1  .btn{
+    width: 170px;
+   margin-top: 70px;
+}
+@media only screen and (max-width: 768px) {
+    .container-1  .btn{
+        width: 170px;
+       margin-top: 30px;
+    }
+    .text-1{
+        color: red;
+    }
+   
+}
 
 
 

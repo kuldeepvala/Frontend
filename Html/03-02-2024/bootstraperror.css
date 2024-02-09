@@ -1,0 +1,20 @@
+.container-email{
+    display: flex;
+    justify-content: center;
+}
+.container-email .border-1{
+    width: 50%;
+}
+@media only screen and (max-width: 768px) {
+    .container-email{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 40px;
+    }
+    .container-email .border-1{
+        width: 300px;
+    }
+}

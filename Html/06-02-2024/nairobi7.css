@@ -16,7 +16,18 @@ body{
     font-size: 19px;
     font-weight: 400;
 }
+@media only screen and (max-width: 768px) {
+    .main{
+        height: auto;
+    }
+  .d-flex ,.img{
+  margin-top: 170px;
+}  
+.container-1{
+    margin-bottom: 50px;
+}
 
+}
 
 
 

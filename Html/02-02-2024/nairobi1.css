@@ -15,8 +15,10 @@ body {
     border-radius: 20px;
     width: 80%; 
     max-width: 500px; 
-    margin: 0 auto; 
     padding: 20px; 
+    margin-top: 40px;
+    margin-left: 40px;
+   
 }
 
 .text-box {
@@ -37,13 +39,35 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+.email ,.form-lable{
+    width:400px;
+}
+.btn ,.btn{
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 768px) {
     .text-box {
-        font-size: 3vw; 
+        font-size: 9vw; 
+        color: red;
     }
     .text-box-1 {
-        font-size: 2vw;
+        font-size: 4vw;
     }
+    .pas-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        width: 80%; 
+        max-width: 600px; 
+        padding: 20px; 
+       
+    }
+    .email ,.form-lable{
+        width:230px;
+    }
+    
 }

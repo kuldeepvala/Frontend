@@ -42,8 +42,9 @@ body{
         align-items: center;
         border-radius: 20px;
         height: 90%;
-        width: 60%;
-        gap:0px
+        width: 90%;
+        gap:3re;
+        text-align: center;
     }
     .col-md-6 {
         display: flex;
@@ -62,5 +63,8 @@ body{
         padding: 8px 4px; 
         border-radius: 4px; 
         text-align: center
+    }
+    .row{
+        width: 270px;
     }
 }
