@@ -361,7 +361,7 @@ body{
         font-weight: 400;
         line-height: normal;
     }
-    
+   
     .card-team-chat {
         color: white;
     }
@@ -432,10 +432,18 @@ body{
    .icon , .ul{
     margin-right: 50px;
    }
-   
+   .card-1{
+    margin-bottom: 30px;
+   }
+  .more-1{
+    color: #000;
+  }
+  .colo-md-6 ,.terms{
+    padding: 50px;
+  }
     
     
-    @media only screen and (max-width: 768px) {
+    @media only screen and  (max-width: 429px) {
         #navbar1, nav {
             display: grid;
             justify-content: space-between;
@@ -454,6 +462,9 @@ body{
         }
         .nav-3{
             display: none;
+        }
+        .viwe{
+            width: 100px;
         }
         .navbar {
             background-color:#000;
@@ -553,6 +564,7 @@ body{
    }
    .container-fluid{
     margin-top: 150px;
+   
    }
    .container-7{
     margin-top: 150px;
@@ -569,6 +581,201 @@ body{
 .footer .col-md-6{
     background-color: rgb(29, 29, 29);
     width: 100%;
+}
+.more{
+    display: none;
+}
+.more-1{
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: 1.5rem;
+    color: red;
+}
+.row .uap{
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+.viwe-1 {
+    display: none;
+}
+}
+@media only screen and (min-width:430px) and (max-width:1024px){
+   
+    form{
+        background-color: #101010;
+        border-radius: 10px;
+    }  
+    .nav-2, .input-group{
+       display: grid;
+       column-span: all;
+    }
+    .camera1{
+        display: none;
+    }
+    .nav-3{
+        display: none;
+    }
+    .navbar {
+        background-color:#000;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .navbar-toggler{
+       margin-left: 400px;
+    }
+   .container2 .img-fluid{
+    margin-right: 100px;
+   }
+    .container2 .img-fluid{
+        padding: 0;
+    }
+    .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+   .container4-1 , p{
+     font-size: medium;
+   }
+   .container4 {
+    height: 430px;
+    width: 670px;
+  }
+  .container4 .container4-1 {
+    font-size: 2rem; 
+  }
+ .container4-1 .text-white {
+    font-size: 2rem; 
+ }
+ .container4-2 .text-white {
+    font-size: 0.875rem; 
+   margin-top: 30px;
+}
+ .button2{
+    display: flex;
+    align-items: end;
+    margin-top: 90px;
+    gap: 1rem;
+ }
+ .container4-2-1{
+    margin-top: 50px;
+ }
+ .row .col-md-9 {
+ margin-left: 50px;
+ margin-top: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+  
+ }
+  .card .img-img-top{
+    width: 500px;
+ }
+ .more {
+ margin-left: 600px;
+ margin-top: 40px;
+ }
+.container-7-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12rem;
+}
+.container-7-1 .card{
+    margin-right: 230px;
+    width: 450px;
+    margin-top: 50px;
+}
+.viwe{
+    margin-top: 200px;
+    width: 200px;
+    margin-right:100px ;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 700px;
+    margin-left: 50px;
+  
+}
+.table-1{
+    margin-top: 50px;
+ 
+}
+.col-md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    margin-top: 100px;
+}
+.card-1{
+    width: 700px;
+    margin-right: 300px;
+}
+.container3{
+    margin-top: 130px;
+}
+.container2 , .img-fluid{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.container3-1 , .text-title{
+    font-size: 3rem;
+}
+.card {
+width: 300px;
+
+}
+.card-1{
+    margin-left: 290px;
+}
+.footer1{
+margin-top: 200px;
+}
+.container-fluid{
+margin-top: 150px;
+
+}
+.container-7{
+margin-top: 150px;
+}
+.main-card-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .col-md-6{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.footer .col-md-6{
+background-color: rgb(29, 29, 29);
+width: 100%;
+}
+.row .uap{
+    margin-right: 400px;
+    margin-bottom: 30px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viwe-1 , .more-1{
+    display: none;
 }
 }
     
