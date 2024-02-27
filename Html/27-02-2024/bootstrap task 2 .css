@@ -1,0 +1,51 @@
+body {
+  background-color: #04011c;
+}
+.nav-link {
+  color: rgb(102, 103, 104);
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav-link:hover {
+  color: white;
+}
+.btn1 {
+  width: 201px;
+  height: 54px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px, 40px, 12px, 40px;
+  color: white;
+  background-color: rgba(208, 17, 204, 0.15);
+}
+.btn2 {
+  font: Helvetica;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0%;
+  color: white;
+  padding: 12px, 40px, 12px, 40px;
+  background-color: rgb(223, 28, 255);
+  margin-top: 30px;
+
+}
+.text1 {
+  font: Axiforma;
+  font-weight: 900;
+  font-size: 55.73664474487305px;
+  letter-spacing: 0%;
+  margin-top: -200px;
+}
+.text2 {
+  font: Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0%;
+  margin-top: 50px;
+ 
+}
+.img3 {
+  position: absolute;
+  top: 550px;
+  left: 870px;
+}
