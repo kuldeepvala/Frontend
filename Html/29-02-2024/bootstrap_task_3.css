@@ -1,0 +1,144 @@
+body{
+    background-color:#040404;
+    ;
+}
+.gradient{
+    Width: 19.26px;
+Height: 25.27px;
+border-radius: 4px;
+background-image: linear-gradient(to bottom right ,black ,rgb(255, 108, 0))
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.nav-link{
+    color: rgb(144, 144, 144);
+}
+.btn-1{
+    background-color: rgb(255, 108, 0);
+    Width: 71.6px;
+    height: 40px;
+    border-radius: 96px;
+}
+.logo{
+    color: rgb(232, 232, 232);
+}
+.btn{
+    width:71.6px ;
+    height: 40px;
+}
+.vector{
+    width: 8.36px;
+    height: 10.96px;
+    background-image: linear-gradient(to bottom right ,black ,rgb(255, 108, 0))
+}
+.basehub{
+    Font: Inter;
+Font-weight: 400;
+Font-size: 12.9px;
+Letter-spacing: 0px;
+align-items: align-left ;
+color: rgb(100, 100, 100);
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 80px;
+}
+.fast{
+    Font: Inter;
+Font-weight: 400;
+Font-size: 46.7px;
+line-height: 52.8px;
+Letter-spacing: 0px;
+color: rgb(144, 144, 144);
+margin-top: 40px;
+}
+.content{
+    Font: Inter;
+Font-weight: 400;
+Font-size: 46.7px;
+line-height: 52.8px;
+Letter-spacing: 0px;
+color: rgb(243, 243, 243);
+}
+.paragraph-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.make , .speed{
+    Font: Inter;
+Font-weight: 400;
+Font-size: 15.6px;
+line-height: 22.4px;
+Letter-spacing: 0px;
+color: rgb(144, 144, 144);
+}
+.make{
+    margin-top: 30px;
+}
+.use{
+    Font: Inter;
+Font-weight: 400;
+Font-size: 12.9px;
+line-height: 19.5px;
+Letter-spacing: 0px;
+color: rgb(144, 144, 144);
+margin-top: 40px;
+}
+.logo-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.btn-2{
+    background-color:rgb(255, 108, 0) ;
+    Width: 116.5px;
+Height: 38px;
+Top: 404.38px;
+Left: 661.75px;
+border-radius: 96px;
+}
+.btn-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .paragraph-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .fast{
+        font-size: 20px;
+    }
+    .content{
+        font-size: 23px;
+        line-height: 10px;
+    }
+    .make , .speed{
+    
+        font-size: 5px;
+        line-height: 6px;
+    }
+    .navbar-toggler{
+        color: chocolate;
+        background-color: rgb(141, 101, 49);
+    }
+   
+}
