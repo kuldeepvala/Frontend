@@ -114,7 +114,120 @@ border-radius: 96px;
     align-items: center;
     margin-top: 40px;
 }
+.picture{
+    Width: 1202px;
+Height: 790px;
+margin-top: 258.38px;
 
+border-radius: 24px;
+box-shadow: 2px -5px 10px rgba(187, 96, 27, 0.5);}
+.picture-1{
+    Width: 1200px;
+    Height: 788px;
+    margin-top: 1px;
+    margin-left: 0.5px;
+    border-radius: 24px;
+    background-color: rgb(2, 2, 2);
+}
+.content2{
+Height: 1033.39px;
+margin-top: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.hading1{
+    Font: Inter;
+Font-weight: 700;
+Font-size: 32.4px;
+line-height: 38.4px;
+color: rgb(243, 243, 243);
+}
+.hading2 , .hading3{
+    Font: Inter;
+Font-weight: 400;
+Font-size: 17.9px;
+
+color: rgb(144, 144, 144);
+}
+.hading2{
+    line-height: 57px; 
+}
+.paragraph-2{
+    Width: 792px;
+    Height: 108.4px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.image01{
+    margin-top: 70px;
+}
+.list{
+    flex-wrap: wrap;
+    margin-top: 70px;
+    Font: Inter;
+Font-weight: 400;
+Font-size: 15.6px;
+line-height: 22.4px;
+color: rgb(144, 144, 144);
+}
+.paragraph-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content4{
+    Width: 1300px;
+Height: 1143.39px;
+margin-top: 208.16px;
+}
+.hading4{
+    Font: Inter;
+Font-weight: 700;
+Font-size: 32.4px;
+line-height: 38.4px;
+color: rgb(243, 243, 243);
+}
+.hading5{
+    Font: Inter;
+Font-weight: 400;
+Font-size: 17.9px;
+line-height: 27px;
+color: rgb(144, 144, 144);
+}
+.card1 , .card2{
+    Width: 606px;
+Height: 276px;
+margin-top: 0px;
+border-radius: 20px;
+background-color: rgb(22, 22, 22);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    Width: 1236px;
+Height: 276px;
+margin-top: 217.39px;
+}
+.cards-2{
+    display: flex;
+    justify-content: center;
+    Width: 1236px;
+Height: 438px;
+gap: 1rem;
+margin-top: 7.39px;
+}
+.card3 , .card4 , .card5{
+    Width: 396px;
+Height: 438px;
+border-radius: 20px;
+background-color: rgb(22, 22, 22);
+}
 
 @media screen and (max-width: 768px) {
     .paragraph-1{
@@ -122,7 +235,7 @@ border-radius: 96px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
+       
     }
     .fast{
         font-size: 20px;
@@ -140,5 +253,55 @@ border-radius: 96px;
         color: chocolate;
         background-color: rgb(141, 101, 49);
     }
+    .paragraph-2{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content2{
+        margin-top: -150px;
+    }
+    .hading1{
+        font-size: 15px;
+        line-height: 5px;
+    }
+    .hading2{
+        line-height: 30px;
+        font-size: 7px;
+    }
+    .hading3{
+    font-size: 7px;
+    line-height: 0px;
+    }
+    .image01{
+        padding: 10px;
+    }
+    .list{
+      font-size: 9px;
+      margin-top: 10px;
+      padding: 10px;
+      
+    }
+    .picture , .picture-1{
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+   .content4{
+    width: auto;
+    margin-top: -180px;
+   }
+   .hading4{
+    font-size: 15px;
+    line-height: 5px;
+   }
+   .hading5{
+    line-height: 30px;
+    font-size: 7px;
+   }
    
 }
