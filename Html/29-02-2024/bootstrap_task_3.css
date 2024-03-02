@@ -8,7 +8,10 @@ Height: 25.27px;
 border-radius: 4px;
 background-image: linear-gradient(to bottom right ,black ,rgb(255, 108, 0))
 }
-
+.navbar{
+    background: #0E0E0E;
+    width: 1480px;
+}
 .navbar-brand{
     display: flex;
     justify-content: space-around;
@@ -18,22 +21,43 @@ background-image: linear-gradient(to bottom right ,black ,rgb(255, 108, 0))
     color: rgb(144, 144, 144);
 }
 .btn-1{
-    background-color: rgb(255, 108, 0);
+    color:rgb(204, 204, 204);
+  background-color: rgb(22, 22, 22);
     Width: 71.6px;
     height: 40px;
     border-radius: 96px;
 }
+.btn-9:hover{
+    background-color: rgb(255, 108, 0);
+}
+.btn-1:hover{
+    background-color: rgb(255, 108, 0);
+}
+.ms-auto{
+    width: Fixed (142.71px);
+height: Fixed (26px);
+
+padding: 0px, 1217.7px, 0px, 0px;
+gap: 8px;
+
+}
 .logo{
     color: rgb(232, 232, 232);
 }
-.btn{
+.btn-9{
+    background-color: rgb(22, 22, 22);
+    color: rgb(204, 204, 204);
     width:71.6px ;
     height: 40px;
 }
 .vector{
     width: 8.36px;
+    border-radius: 2px;
     height: 10.96px;
     background-image: linear-gradient(to bottom right ,black ,rgb(255, 108, 0))
+}
+.nav-link:hover{
+    color: #974e1e;
 }
 .basehub{
     Font: Inter;
@@ -49,6 +73,10 @@ color: rgb(100, 100, 100);
     align-items: center;
     gap: 1rem;
     margin-top: 80px;
+    border: 1px inset #ac6416;
+    Width: 251.97px;
+Height: 27.5px;
+border-radius: 9999px;
 }
 .fast{
     Font: Inter;
@@ -101,12 +129,15 @@ margin-top: 40px;
     flex-wrap: wrap;
 }
 .btn-2{
-    background-color:rgb(255, 108, 0) ;
+    background-color:rgb(22, 22, 22);
     Width: 116.5px;
+    color: rgb(204, 204, 204);
 Height: 38px;
 Top: 404.38px;
-Left: 661.75px;
 border-radius: 96px;
+}
+.btn-2:hover{
+    background-color: rgb(255, 108, 0);
 }
 .btn-02{
     display: flex;
@@ -228,7 +259,106 @@ Height: 438px;
 border-radius: 20px;
 background-color: rgb(22, 22, 22);
 }
+.hading6 , .hading04 , .hading05{
+    Font: Inter;
+Font-weight: 600;
+Font-size: 18.1px;
+margin-top: 10px;
+line-height: 27px;
+color: rgb(243, 243, 243);
+}
+.hading7 , .hading8 , .hading9 , .hading01 ,.hading03
+, .hading07 , .hading06 , .hading08 , .hading09 , .hading010 {
+    Font: Inter;
+Font-weight: 400;
+Font-size: 13.7px;
+line-height: 21px;
+color: rgb(144, 144, 144);
+}
+.hading7 , .hading08{
+    margin-top: 14px;
+}
+.texts{
+    padding: 20px;
+}
+.image-01{
+    padding: 15px;
+    margin-top: 10px;
+}
+.image-02{
+    padding: 15px;
+    margin-top: 14px;
+    margin-left: 9px;
+}
+.image-03{
+    padding: 15.3px;
+    margin-top: 5px;
+}
+.hading03{
+  margin-top: 14px;
+}
+.image-04{
+    display: flex;
+    justify-content: end;
+}
+.card1 , .card2{
+    display: flex;
+}
+.button-03{
+    Width: 1234px;
+Height: 82px;
+margin-top: 20px;
+background-color: #974e1e;
+border-radius: 10px;
 
+}
+.container-01{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.texts-001{
+    Font: Inter;
+Font-weight: 700;
+Font-size: 24.2px;
+line-height: 36px;
+color: rgb(0, 0, 0);
+}
+.btn-01{
+    Width: 103.44px;
+Height: 33px;
+margin-top: 0.5px;
+border-radius: 96px;
+ padding: 8.5px, 12.44px, 8.5px, 13px;
+ color: rgb(204, 204, 204);
+ background-color: rgb(22, 22, 22);
+ border: 1px solid #252525
+}
+.content02{
+    Width: 1300px;
+Height: 645.79px;
+margin-top: 251.55px;
+padding: 80px, 272px, 4568.55px, 32px;
+
+}
+.hading020{
+    Font: Inter;
+    Font-weight: 300;
+    Font-size: 52.8px;
+    line-height: 64.8px;
+   color: rgb(144, 144, 144);
+}
+.hading030 , .hading040 , .hading050 , .hading060{
+    Font: Inter;
+Font-weight: 300;
+Font-size: 52.8px;
+line-height: 64.8px;
+color: rgb(243, 243, 243);
+}
+.hading030{
+    margin-top: 50px;
+}
 @media screen and (max-width: 768px) {
     .paragraph-1{
         display: flex;
@@ -236,6 +366,13 @@ background-color: rgb(22, 22, 22);
         align-items: center;
         flex-direction: column;
        
+    }
+    .navbar{
+        background: #0E0E0E;
+        width: auto;
+    }
+    .col-md-6{
+        width: auto;
     }
     .fast{
         font-size: 20px;
@@ -294,6 +431,19 @@ background-color: rgb(22, 22, 22);
    .content4{
     width: auto;
     margin-top: -180px;
+    
+   }
+   .cards , .cards-2 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+   }
+   .cards-2{
+    margin-top: 1100px;
+    padding: 0;
    }
    .hading4{
     font-size: 15px;
@@ -302,6 +452,20 @@ background-color: rgb(22, 22, 22);
    .hading5{
     line-height: 30px;
     font-size: 7px;
+   }
+   .card1 , .card2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+ 
+   .card1{
+    height: 430px;
+    margin-top: 400px;
+   }
+   .card2{
+    height: 450px;
+    margin-top: 30px;
    }
    
 }
