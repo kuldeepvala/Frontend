@@ -1,6 +1,7 @@
 body{
     background-color:#040404;
-    ;
+    margin: 0;
+    padding: 0;
 }
 .gradient{
     Width: 19.26px;
@@ -160,7 +161,7 @@ box-shadow: 2px -5px 10px rgba(187, 96, 27, 0.5);}
     border-radius: 24px;
     background-color: rgb(2, 2, 2);
 }
-.content2{
+.content2 , .content2-1{
 Height: 1033.39px;
 margin-top: 90px;
 display: flex;
@@ -168,6 +169,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+
 .hading1{
     Font: Inter;
 Font-weight: 700;
@@ -359,6 +361,266 @@ color: rgb(243, 243, 243);
 .hading030{
     margin-top: 50px;
 }
+.texts0-1{
+Font-weight: 500;
+Font-size: 13.9px;
+line-height: 16px;
+color: rgb(204, 204, 204);
+}
+.readmore{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    Width: 244.68px;
+Height: 33px;
+margin-top: 80px;
+border-radius: 96px;
+background-color: rgb(22, 22, 22);
+border:1px solid rgb(37, 37, 37);
+}
+.content6{
+    Width: 1300px;
+Height: 875.4px;
+margin-top: 900px;
+}
+.what{
+Font-weight: 700;
+Font-size: 32.4px;
+line-height: 38.4px;
+}
+.what{
+    display: flex;
+    justify-content: center;
+Font-weight: 700;
+Font-size: 32.4px;
+line-height: 38.4px;
+color: rgb(243, 243, 243);
+}
+.texts-002 , .join{
+Font-weight: 400;
+Font-size: 17.9px;
+line-height: 27px;
+}
+.follows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join{
+    color: rgb(120, 120, 120);
+}
+.texts-002{
+    color: rgb(243, 243, 243);
+}
+.content6-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Width: 1236px;
+Height: 566px;
+margin-top: 107.39px;
+}
+.content6-01{
+    display:flex ;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card-61{
+    display: flex;
+    flex-direction: column;
+Width: 396px;
+Height: 246px;
+border-radius: 8px;
+background-color: rgb(27, 27, 27);
+}
+.card60{
+    Width: 396px;
+Height: 566px;
+padding: 0px, 0px, 5260.72px, 0px;
+}
+.content61 ,.content62{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 1rem;
+    Width: 399px;
+Height: 56px;
+
+}
+.content61{
+    margin-top: 26px;
+}
+.content62{
+    margin-top: 30px;
+}
+
+.brotz{
+Font-weight: 500;
+Font-size: 16.1px;
+line-height: 24px;
+color: rgb(243, 243, 243);
+}
+.tzky{
+Font-weight: 400;
+Font-size: 12.9px;
+line-height: 19.5px;
+color: rgb(144, 144, 144);
+}
+.iconx img{
+    display: flex;
+    gap: 2rem;
+    Width: 16px;
+Height: 16px;
+margin-left: 180px;
+margin-top: -20px;
+
+}
+.text61 , .text61-1 , .text61-2{
+Font-weight: 400;
+Font-size: 13.7px;
+margin-top: 13px;
+line-height: 21px;
+color: rgb(204, 204, 204);
+}
+.paragraph61{
+    padding: 30px;
+    margin-top: -10px;
+}
+.content61-1 , .content61-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card62{
+    Width: 396px;
+Height: 272px;
+margin-top: 24px;
+border-radius: 8px;
+background-color: rgb(22, 22, 22);
+}
+.names61{
+    Width: 101.16px;
+Height: 43.5px;
+margin-top: 6.25px;
+padding: 0px, 0px, 5764.47px, 0px;
+}
+.iconx61{
+margin-left: 140px;
+margin-top: -10px;
+}
+.content61-2{
+    margin-top: 30px;
+}
+.card63{
+    Width: 396px;
+Height: 209px;
+border-radius: 8px;
+background-color: rgb(22, 22, 22);
+margin-left: 24px;
+margin-top: -24px;
+}
+.content63-1{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.names63{
+    Width: 125.55px;
+    Height: 43.5px;
+    margin-top: 6.25px;
+}
+.iconx63{
+      display: flex;
+    gap: 2rem;
+    Width: 16px;
+Height: 16px;
+margin-left: 120px;
+margin-top: 10px;
+}
+.card64{
+    Width: 396px;
+Height: 267px;
+margin-top: 24px;
+margin-left: 24px;
+border-radius: 8px;
+background-color: rgb(22, 22, 22);
+}
+.card65{
+    Width: 396px;
+Height: 172px;
+border-radius: 8px;
+background-color: rgb(22, 22, 22);
+margin-left: 44px;
+margin-top: -23px;
+}
+.card66{
+    Width: 396px;
+Height: 151px;
+margin-top: 24px;
+border-radius: 8px;
+margin-left: 44px;
+background-color: rgb(22, 22, 22) ;
+}
+.card67{
+    Width: 396px;
+Height: 172px;
+margin-top: 24px;
+margin-left: 44px;
+border-radius: 8px;
+background-color:rgb(22, 22, 22) ;
+}
+.content7{
+    Width: 1300px;
+Height: 672.66px;
+margin-top: 60.72px;
+display: flex;
+align-items: center;
+margin-left: 100px;
+}
+.our{
+Font-weight: 700;
+Font-size: 32.4px;
+line-height: 38.4px;
+color: rgb(243, 243, 243);
+}
+.texts-003{
+    Width: 353.15px;
+Height: 171.4px;
+margin-top: 226.63px;
+margin-left: 32px
+}
+.see ,.have{
+Font-weight: 400;
+Font-size: 17.9px;
+margin-top: 10px;
+line-height: 20px;
+color: rgb(144, 144, 144);
+}
+.content8{
+    Width: 1220px;
+Height: 649.86px;
+margin-top: 45.38px;
+margin-left: 160px;
+}
+.pri{
+Font-weight: 700;
+Font-size: 32.4px;
+line-height: 38.4px;
+color: rgb(243, 243, 243);
+}
+.get{
+Font-weight: 400;
+Font-size: 17.899999618530273px;
+line-height: 24px;
+color: rgb(144, 144, 144);
+}
+.hading101{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 @media screen and (max-width: 768px) {
     .paragraph-1{
         display: flex;
@@ -366,6 +628,9 @@ color: rgb(243, 243, 243);
         align-items: center;
         flex-direction: column;
        
+    }
+    .content2-1{
+        margin-top: -500px;
     }
     .navbar{
         background: #0E0E0E;
@@ -380,6 +645,9 @@ color: rgb(243, 243, 243);
     .content{
         font-size: 23px;
         line-height: 10px;
+    }
+    .image-02 , .image-01{
+        margin-top: 0;
     }
     .make , .speed{
     
@@ -467,5 +735,62 @@ color: rgb(243, 243, 243);
     height: 450px;
     margin-top: 30px;
    }
+   .button-03{
+    width: 100%;
+    margin-top: 500px;
+    
+   }
+   .hading020{
+    font-size: 30px;
+    margin-top: 0px;
+   }
+   .hading030 , .hading040 , .hading050 , .hading060{
+    font-size: 40px;
+    margin-top: -10px;
+   }
+   .content02{
+    width: auto;
+   } 
+   .texts-001{
+    font-size: 10px;
+   }
+   .btn-01{
+    font-size: 10px;
+   }
+   .content6-01{
+    margin-top: 4000px;
+    
+   }
+   .content6{
+    width: auto;
+   }
+   .texts-002 , .join{
+    width: auto;
+   }
+   .content6-1{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 600px;
    
+   }
+   .card60 {
+    width: auto;
+    margin-top: 50px;
+
+   }
+   .card63 , .card64 , .card65 , .card66 , .card67 , .card68 {
+    margin: 0%;
+   }
+    .content6{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        flex-direction: column;
+    }
+   .what{
+   font-size: 25px;
+   }
 }
